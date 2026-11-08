@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: AdrienValette
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: 9be59f7572fd49e6ad177471cbe78580, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: 9f9be33571984b909a00eb0b328e8d03, type: 2}
+  mesh: {fileID: 1620978713315995519, guid: 61ea190c7c2eb844eabbb60823de9cd8, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 3f4c721b2ac445c88757fa82a126f36f, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 7c5464c9e05d4271befe6b4f33e21ff6, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: cc8de3564145418eb1115a0856b67511, type: 2}
+      level: 80
+    performance: 82
+    gender: 2
+    disability: 1
+    monthlySalary: 6000
+    onboardingHours: 3
+    securityRisk: 78

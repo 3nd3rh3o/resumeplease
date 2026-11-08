@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 0; height: 5px; flex-shrink: 0; background-color: rgb(124, 212, 255); justify-content: flex-start; align-self: auto; align-items: auto; flex-direction: column; align-content: auto; flex-wrap: nowrap; width: 100%;">
+        <ui:Label text="https://www.phone-look.com/search?=" name="Label" style="font-size: 2px; flex-shrink: 1; flex-grow: 1; height: 100%; margin-top: 1px; padding-top: 0; padding-bottom: 0; margin-bottom: 1px; align-self: stretch; flex-direction: column; align-content: stretch; justify-content: flex-start; align-items: stretch; -unity-text-align: middle-left; width: 98%; margin-left: 1px; margin-right: 1px; background-color: rgb(248, 248, 248); padding-right: 0; padding-left: 2px; flex-wrap: nowrap;">
+            <Bindings>
+                <ui:DataBinding property="text" binding-mode="ToTarget"/>
+            </Bindings>
+        </ui:Label>
+    </ui:VisualElement>
+    <ui:VisualElement name="Content" style="flex-grow: 1; background-color: rgb(255, 255, 255);"/>
+</ui:UXML>

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+  <ui:VisualElement style="width: 100%; height: 100%; background-color: rgb(247, 247, 243); overflow: hidden;">
+    <ui:Label text="https://academie-interface.test/registre/martin" style="font-size: 1.7px; white-space: normal; flex-shrink: 0; padding: 1px; background-color: rgb(211, 225, 234); margin: 0;"/>
+    <ui:ScrollView name="evidence-scroll" mode="Vertical" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" style="flex-grow: 1; min-height: 0; width: 100%;">
+      <ui:Label text="Formation — Chloé Martin" style="font-size: 3px; white-space: normal; -unity-font-style: bold; margin: 2px; padding: 0; flex-shrink: 0;"/>
+      <ui:Label text="Attestation délivrée en juin 2022.&#10;&#10;Intitulé : Découverte des interfaces web, atelier de 12 heures. Contenu : HTML, CSS et utilisation d’un éditeur visuel.&#10;&#10;Aucune certification React avancé n’a été délivrée à cette personne. L’atelier ne comportait pas de développement TypeScript ni de test d’accessibilité." style="font-size: 2px; white-space: normal; margin: 2px; padding: 0; flex-shrink: 0;"/>
+      <ui:Label text="Document fictif — prototype Resume, Please !" style="font-size: 1.4px; white-space: normal; margin: 2px; flex-shrink: 0; color: rgb(85, 94, 100);"/>
+    </ui:ScrollView>
+  </ui:VisualElement>
+</ui:UXML>

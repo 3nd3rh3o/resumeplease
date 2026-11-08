@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1a0c3cfeb0c1943bab0bb7a4a188c5, type: 3}
+  m_Name: MLJulesRiviere
+  m_EditorClassIdentifier: Assembly-CSharp::MotivationLetters
+  m_content: "Madame, Monsieur,\n\nJe n’atteins pas votre niveau d’audit de 80/100 et j’ai besoin de cinq heures d’accompagnement par semaine.\n\nMa <0>référence professionnelle<0/> et mon <1>projet RevuePrudente<1/> permettent de vérifier mes missions. Je préfère rendre mes limites explicites.\n\nMa <2>proposition de contrat<2/> précise le salaire, le temps d’intégration et les déclarations que j’ai choisi de vous communiquer.\n\nJules Rivière"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: c4e5650027f14c208b25b4d2033c9d11, type: 3}
+  - {fileID: 9197481963319205126, guid: c88f0f1ba01a49c09e4eb288d2c4533a, type: 3}
+  - {fileID: 9197481963319205126, guid: 07aea5d3cd3041adb811c6b608f4ef15, type: 3}

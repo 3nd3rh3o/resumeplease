@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: ChloeMartin
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: b3c9ee12619e42b88d6193d38d66a97a, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: 338da996de03434194512abfff3b024a, type: 2}
+  mesh: {fileID: 8056941697456896742, guid: 39f36940f10fecb459452c6ba1411312, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 341449bfb6a14cc69545ae133825be74, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 1ae1325efd1e441ea026b33e5e8d855b, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: 9fb5e56b344041868cac19748606ecca, type: 2}
+      level: 32
+    performance: 42
+    gender: 1
+    disability: 1
+    monthlySalary: 2500
+    onboardingHours: 12
+    securityRisk: 40

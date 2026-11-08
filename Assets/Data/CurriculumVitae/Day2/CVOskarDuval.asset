@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVOskarDuval
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "DUVAL"
+  m_surname: "Oskar"
+  m_email: "oskarduval@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2021 — <0>Parcours informatique — formation vérifiée<0/>."
+  m_experience: "2021–2024 — <1>Mission professionnelle dans une équipe produit<1/>."
+  m_skills: "<2>TableauQualite : réalisations et limites<2/>. Je demande un budget conséquent et je privilégie les indicateurs de couverture. Je communique peu avec les utilisateurs."
+  m_hobbies: "Activités associatives, lecture."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "<3>Proposition de contrat : salaire, intégration, pratiques de sécurité et déclarations volontaires<3/>."
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: 6b16aed02b8c4a3dae5144caef943aff, type: 3}
+  - {fileID: 9197481963319205126, guid: 40b32b8268764be98a52d786230d3709, type: 3}
+  - {fileID: 9197481963319205126, guid: ab3b14e6a0d746ed99565c4f657151b2, type: 3}
+  - {fileID: 9197481963319205126, guid: 7673fb13a8714f51978c093c530135e7, type: 3}

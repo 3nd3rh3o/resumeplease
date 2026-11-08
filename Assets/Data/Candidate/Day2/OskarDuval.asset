@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: OskarDuval
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: 1d462a1519a24aacb829aed2c4313025, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: 16ca75e32897487cab6e78e55ab645f4, type: 2}
+  mesh: {fileID: 2467992989238367750, guid: 332ea27d0a6692a4b86d9133cc26e079, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 2bdc3aef1f27409f98b5e5b087cdfec0, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 2cd75bdffe0c4c6c822e47d854208ca5, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: 89720d5046d249c692e6a1427f313218, type: 2}
+      level: 88
+    performance: 50
+    gender: 2
+    disability: 1
+    monthlySalary: 6200
+    onboardingHours: 2
+    securityRisk: 30

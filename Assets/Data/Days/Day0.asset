@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209e9f8ee127de645bc8458a7727596a, type: 3}
+  m_Name: Day0
+  m_EditorClassIdentifier: Assembly-CSharp::DayDefinition
+  title: Jour 0 - Premier recrutement
+  briefing: "Un poste backend Java est ouvert. Vérifiez diplômes, expériences et projets via les passages en gras. Les candidatures viennent d’un formulaire commun à plusieurs métiers. Trois entretiens au maximum ; vous pouvez recruter moins de personnes que vous n’en recevez."
+  candidates:
+  - {fileID: 11400000, guid: f927ac79758d46aba0cb36058c747b18, type: 2}
+  - {fileID: 11400000, guid: 736c5c445a13483d845b32be79c9d092, type: 2}
+  - {fileID: 11400000, guid: a3eb1d1f37734c7a9e02352be900e85e, type: 2}
+  - {fileID: 11400000, guid: 263ebc33ba574bd993483747edfcf0f1, type: 2}
+  - {fileID: 11400000, guid: 95b69ee9c3ce4c07bdb3dad6992158c4, type: 2}
+  interviewCapacity: 3
+  recruitment:
+  - role: {fileID: 11400000, guid: 3db6165bdd0248a4a02021792bc9202e, type: 2}
+    hiresRequired: 1
+    requiredSkills:
+    - skill: {fileID: 11400000, guid: b188d528c00342bb8c83ca554894221b, type: 2}
+      level: 60
+  composition: []
+  requirePerformance: 0
+  minimumAveragePerformance: 0
+  nextScenePath: Assets/Scenes/Day1.unity
+  failureRules:
+  - metric: 0
+    comparison: 2
+    threshold: 2
+    ending: 1
+    title: "Le fusible RH"
+    message: "Deux journées consécutives se terminent avec des objectifs manqués. La direction met fin à votre mission sans revoir les moyens accordés. Ce bilan décrit les choix et leurs contraintes ; il ne mesure pas votre valeur ni celle des personnes candidates."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVAdrienValette
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "VALETTE"
+  m_surname: "Adrien"
+  m_email: "adrienvalette@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2021 — <0>Parcours informatique — formation vérifiée<0/>."
+  m_experience: "2021–2024 — <1>Mission professionnelle dans une équipe produit<1/>."
+  m_skills: "<2>AuditExpress : réalisations et limites<2/>. Je connais les audits, mais je maintiens une copie personnelle des données de production pour travailler plus vite."
+  m_hobbies: "Activités associatives, lecture."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "<3>Proposition de contrat : salaire, intégration, pratiques de sécurité et déclarations volontaires<3/>."
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: 2136defcc2de4836a264a4b3662d3c10, type: 3}
+  - {fileID: 9197481963319205126, guid: 65f4d9ebc3584129892b0ece575a90e6, type: 3}
+  - {fileID: 9197481963319205126, guid: f5c1b57dae804c80839210c7d081d70b, type: 3}
+  - {fileID: 9197481963319205126, guid: bcf85e3201434653b39401d13bc6cf5e, type: 3}

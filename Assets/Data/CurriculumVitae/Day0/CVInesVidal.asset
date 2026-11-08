@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVInesVidal
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "VIDAL"
+  m_surname: "Inès"
+  m_email: "inesvidal@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2020 — <0>Licence informatique, Université de Belrive<0/>. Formation Java du soir commencée en 2024."
+  m_experience: "2020–2024 — <1>Développeuse Python chez Atelier Données<1/>. Services internes, imports et automatisation."
+  m_skills: "Python confirmé, SQL, tests automatisés. Java en apprentissage. <2>Projet Java SuiviStock<2/>."
+  m_hobbies: "Escalade, ateliers de réparation."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "Documents de formation, référence employeur et projet consultables ci-dessus.\n\n<3>Proposition de contrat : salaire, intégration et déclarations volontaires<3/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: f1fe991aa9e44d4084bf72e1b342c4f8, type: 3}
+  - {fileID: 9197481963319205126, guid: a3d963ba2b1d4762989f19645b4d874f, type: 3}
+  - {fileID: 9197481963319205126, guid: 78e0bc8a3c47465c9f022211f83fdf9d, type: 3}
+  - {fileID: 9197481963319205126, guid: 78e0457516a7421dab460618e99959a5, type: 3}

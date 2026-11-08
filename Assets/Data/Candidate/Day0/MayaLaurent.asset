@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: MayaLaurent
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: 4e45c7a8325e41b9bf90ae60d8226a83, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: e7e59c933fb14906aa97c7299aae49f4, type: 2}
+  mesh: {fileID: 1482931743697296974, guid: 4595786c33966be42b1f911fe4a2fd84, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 946cecfad5f1400a88f41ec46ca574ae, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 3db6165bdd0248a4a02021792bc9202e, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: b188d528c00342bb8c83ca554894221b, type: 2}
+      level: 82
+    performance: 84
+    gender: 1
+    disability: 1
+    monthlySalary: 4000
+    onboardingHours: 2
+    securityRisk: 8

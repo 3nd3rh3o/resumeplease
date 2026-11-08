@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: LucasPerrin
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: f8f8082301bf456e8d1ceb10aae7b41c, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: fbc4422f560a4561b866df94fccab3c1, type: 2}
+  mesh: {fileID: 8426985280914361799, guid: 7ef65adff3903b247b21cc3fd25d2cd5, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: c2de2284cde54ebe93e96de8fee86a34, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 3db6165bdd0248a4a02021792bc9202e, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: b188d528c00342bb8c83ca554894221b, type: 2}
+      level: 28
+    performance: 40
+    gender: 2
+    disability: 1
+    monthlySalary: 2600
+    onboardingHours: 12
+    securityRisk: 45

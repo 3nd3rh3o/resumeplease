@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewNoemieGarcia
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Quel problème réseau avez-vous corrigé chez Cap Service ?"
+      response: "En changeant un filtre, une requête lente pouvait écraser un résultat plus récent. Nous avons annulé ce qui pouvait l’être et ignoré les réponses dont l’identifiant n’était plus courant. J’ai ajouté un test avec des délais inversés."
+    second:
+      question: "Comment travaillez-vous avec l’équipe backend ?"
+      response: "Nous définissons ensemble les données, les erreurs et les cas de reprise. Je ne suppose pas qu’une réponse aura toujours la forme attendue. Un exemple de contrat et quelques cas limites nous évitent beaucoup de malentendus."
+  - first:
+      question: "Comment concevoir un formulaire utilisable au clavier ?"
+      response: "Je pars de contrôles natifs avec des labels, un ordre logique et un focus visible. Les erreurs sont associées aux champs, puis annoncées correctement. Je teste le parcours réel sans souris et je complète avec des tests ciblés."
+    second:
+      question: "Comment évitez-vous qu’une requête lente affiche un ancien résultat ?"
+      response: "Le nettoyage d’effet annule la requête si c’est possible. Je vérifie aussi que la réponse correspond encore à l’état courant avant de l’afficher. Les états vide, chargement et erreur doivent rester cohérents pendant cette transition."
+  - first:
+      question: "Comment commenceriez-vous sur notre interface existante ?"
+      response: "Je lancerais les tests, suivrais un parcours utilisateur et regarderais les incidents récents. Je proposerais une première correction petite et vérifiable. Une réécriture complète n’est pas mon point de départ."
+    second:
+      question: "Que faites-vous si une livraison menace la qualité de l’équipe ?"
+      response: "Je précise les risques et je propose un périmètre plus petit. Je protège d’abord les parcours qui peuvent bloquer l’utilisateur ou lui faire perdre des données. Une dette acceptée doit avoir un propriétaire et une raison claire."

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: InesVidal
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: e6e49099dd1d493381bbb97a690546b2, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: 30ea0c914d1246f69debb4ad4f9f800d, type: 2}
+  mesh: {fileID: 6576351117171655964, guid: 6085daccb5894fd459c847df94d6db39, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 652a68ea8fbd477786d6257600b58fa9, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 3db6165bdd0248a4a02021792bc9202e, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: b188d528c00342bb8c83ca554894221b, type: 2}
+      level: 54
+    performance: 78
+    gender: 1
+    disability: 0
+    monthlySalary: 3300
+    onboardingHours: 6
+    securityRisk: 10

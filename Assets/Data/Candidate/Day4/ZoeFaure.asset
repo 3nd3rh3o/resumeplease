@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: ZoeFaure
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: 6a14c6a5ba11433fa86f78c60f3a68e2, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: 016a3fd137a94edcb213fe6bc81540d7, type: 2}
+  mesh: {fileID: 3809672945105069758, guid: f79f36e00b9937b46ba165c71a1f2581, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 90f9a533dc4f422ebf0911b9973d1aa3, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 3db6165bdd0248a4a02021792bc9202e, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: b188d528c00342bb8c83ca554894221b, type: 2}
+      level: 74
+    performance: 80
+    gender: 1
+    disability: 1
+    monthlySalary: 2400
+    onboardingHours: 14
+    securityRisk: 10

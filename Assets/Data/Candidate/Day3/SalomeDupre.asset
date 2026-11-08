@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: SalomeDupre
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: a3b8858d2d4a4c40b2704c8b73be8995, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: b3f593de9d404f91b168f0bf593c6551, type: 2}
+  mesh: {fileID: 7447391026824419265, guid: a6dcabde657b39c4281df499bf8c21af, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 3f2a3c77b7ad4ba182e6e2b7c33e8556, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 7c5464c9e05d4271befe6b4f33e21ff6, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: cc8de3564145418eb1115a0856b67511, type: 2}
+      level: 68
+    performance: 84
+    gender: 1
+    disability: 0
+    monthlySalary: 3600
+    onboardingHours: 5
+    securityRisk: 10

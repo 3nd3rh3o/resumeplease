@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewHugoLeroy
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Pourquoi votre projet insiste-t-il sur le clavier ?"
+      response: "Nous avions des utilisateurs qui naviguaient sans souris. J’ai corrigé les labels, l’ordre du focus et les erreurs annoncées. Cela aide aussi d’autres usages."
+    second:
+      question: "Que dit la référence sur votre situation de handicap ?"
+      response: "Seulement ce que j’ai choisi de déclarer. Les résultats techniques et l’organisation de mon poste sont deux sujets distincts. Je souhaite un aménagement du matériel."
+  - first:
+      question: "Comment éviter qu’une réponse réseau périmée remplace la nouvelle ?"
+      response: "Je garde un identifiant de requête et j’annule ce qui peut l’être. Je teste les réponses dans un ordre inversé et les états de chargement."
+    second:
+      question: "Comment traitez-vous un formulaire qui échoue ?"
+      response: "Je conserve la saisie, j’associe l’erreur au bon champ et je propose une nouvelle tentative. Je vérifie aussi l’absence de doublon côté service."
+  - first:
+      question: "Quelles conditions vous permettraient de prendre ce poste ?"
+      response: "Je demande 3600 € brut par mois. Pour mon intégration, il faut prévoir 2 heures d’accompagnement par semaine. Je suis autonome sur les parcours React. Deux heures de présentation métier par semaine me permettront de commencer."
+    second:
+      question: "Comment gérez-vous les données et les accès de production ?"
+      response: "Mes exemples utilisent des comptes de test. Je vérifie les droits côté serveur avec l’équipe backend ; cacher un composant React ne remplace pas une autorisation."

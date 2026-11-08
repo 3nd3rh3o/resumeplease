@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVNoemieGarcia
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "GARCIA"
+  m_surname: "Noémie"
+  m_email: "noemiegarcia@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2021 — <0>Licence professionnelle interfaces web, IUT de Port-Roche<0/>."
+  m_experience: "2021–2024 — <1>Développeuse frontend chez Cap Service<1/>."
+  m_skills: "React, TypeScript, tests de composants, accessibilité. <2>Projet GuichetClair<2/>."
+  m_hobbies: "Randonnée, contribution à des outils associatifs."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "Les justificatifs de formation, références et projets sont consultables dans les passages en gras.\n\n<3>Proposition de contrat : salaire, intégration et déclarations volontaires<3/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: 2600b5684def4740ae00d0e03084a55b, type: 3}
+  - {fileID: 9197481963319205126, guid: 64b094b288a641dbacb3032ed3080ab8, type: 3}
+  - {fileID: 9197481963319205126, guid: 5ac54618d4a34d16999aa976ba61cbe5, type: 3}
+  - {fileID: 9197481963319205126, guid: e93f315b746e4e4a839826e70f82aa28, type: 3}

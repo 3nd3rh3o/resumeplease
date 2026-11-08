@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: NabilZiani
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: c2bd1d3edb7e4bc59d4f913b71db2e12, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: 27ac4d0cf01049d0b47f4abbb637da5a, type: 2}
+  mesh: {fileID: 8586046603590760959, guid: e845cd21b3bba98469f7f3c5bd268e2f, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 6754b3345c3e4700af1499de660e420d, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 2cd75bdffe0c4c6c822e47d854208ca5, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: 89720d5046d249c692e6a1427f313218, type: 2}
+      level: 86
+    performance: 88
+    gender: 2
+    disability: 2
+    monthlySalary: 3900
+    onboardingHours: 2
+    securityRisk: 6

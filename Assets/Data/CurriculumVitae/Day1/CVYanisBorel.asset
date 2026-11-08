@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVYanisBorel
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "BOREL"
+  m_surname: "Yanis"
+  m_email: "yanisborel@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2024 — <0>Formation développeur web, Atelier Numérique de Belrive<0/>."
+  m_experience: "2024 — <1>Stage frontend chez Billet Local<1/>, quatre mois."
+  m_skills: "HTML, CSS, JavaScript ; React en progression. <2>Projet SortiesQuartier<2/>."
+  m_hobbies: "Organisation de concerts associatifs."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "Les justificatifs de formation, références et projets sont consultables dans les passages en gras.\n\n<3>Proposition de contrat : salaire, intégration et déclarations volontaires<3/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: ad72cdf2cc514f65a4bc771a29a0bba4, type: 3}
+  - {fileID: 9197481963319205126, guid: f2ab43018f3146a88e18bf5441613273, type: 3}
+  - {fileID: 9197481963319205126, guid: f2fd0fdb678d4fea93e3b6f95595a069, type: 3}
+  - {fileID: 9197481963319205126, guid: d8dd0401bfd84c7080ca2d8622fa2a42, type: 3}

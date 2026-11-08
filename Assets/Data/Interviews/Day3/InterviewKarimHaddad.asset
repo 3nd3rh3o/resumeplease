@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewKarimHaddad
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Votre mission de six mois suffit-elle à expliquer toute votre expérience ?"
+      response: "Non, elle s’ajoute à deux années de gestion des accès. Je distingue le contrat salarié et la mission de conseil, qui ne se chevauchaient pas."
+    second:
+      question: "Qu’a corrigé DroitsMesurés ?"
+      response: "Des comptes orphelins et des droits trop larges. Nous avons gardé une procédure de récupération pour éviter qu’une suppression précipitée bloque toute l’équipe."
+  - first:
+      question: "Comment contrôler une permission sensible ?"
+      response: "Je teste aussi le refus depuis un compte qui ne doit pas avoir le droit, côté serveur. Masquer le bouton dans une interface ne protège pas les données."
+    second:
+      question: "Que faites-vous si votre audit dépasse le délai imposé ?"
+      response: "Je livre le périmètre réellement vérifié et les risques encore ouverts. Je ne remplace pas les vérifications manquantes par un avis favorable."
+  - first:
+      question: "Quelles conditions vous permettraient de prendre ce poste ?"
+      response: "Je demande 3900 € brut par mois. Pour mon intégration, il faut prévoir 3 heures d’accompagnement par semaine. Je peux gérer l’audit courant ; il faut réserver trois heures de découverte des outils internes chaque semaine."
+    second:
+      question: "Comment gérez-vous les données et les accès de production ?"
+      response: "Les comptes sont nominatifs et les secrets séparés des dépôts. Ma revue demande encore une meilleure alerte sur les comptes temporaires expirés, d’où le risque résiduel documenté."

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVLilaTessier
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "TESSIER"
+  m_surname: "Lila"
+  m_email: "lilatessier@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2021 — <0>Parcours informatique — formation vérifiée<0/>."
+  m_experience: "2021–2024 — <1>Mission professionnelle dans une équipe produit<1/>."
+  m_skills: "<2>RecettePartagee : réalisations et limites<2/>. Je peux organiser la recette et automatiser les parcours critiques sans attendre une équipe de test complète."
+  m_hobbies: "Activités associatives, lecture."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "<3>Proposition de contrat : salaire, intégration, pratiques de sécurité et déclarations volontaires<3/>."
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: de3f2ebcd31e498f8a04af2929a1a90f, type: 3}
+  - {fileID: 9197481963319205126, guid: 55abc9318541470ab11fc90d83441203, type: 3}
+  - {fileID: 9197481963319205126, guid: ad379b23556848eb8eafddc905ebb63a, type: 3}
+  - {fileID: 9197481963319205126, guid: 5c08234610034a1e9101eaccba9389f4, type: 3}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVCamilleRobin
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "ROBIN"
+  m_surname: "Camille"
+  m_email: "camillerobin@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2021 — <0>Parcours informatique — formation vérifiée<0/>."
+  m_experience: "2021–2024 — <1>Mission professionnelle dans une équipe produit<1/>."
+  m_skills: "<2>CarnetDeRecette : réalisations et limites<2/>. Je débute en automatisation. Une bonne partie de mes dix heures d’accompagnement servira à apprendre le cadre de test."
+  m_hobbies: "Activités associatives, lecture."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "<3>Proposition de contrat : salaire, intégration, pratiques de sécurité et déclarations volontaires<3/>."
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: 59fc98f00aa7469fbae58875e73d1bb1, type: 3}
+  - {fileID: 9197481963319205126, guid: 324b784d6ccd41a19db74651872aced0, type: 3}
+  - {fileID: 9197481963319205126, guid: 6d67deca4d3c4b06a3bc7b4cb8bf2cd3, type: 3}
+  - {fileID: 9197481963319205126, guid: 33e458401bc644fca41ce04b8dfbcb98, type: 3}

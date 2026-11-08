@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVAliceRenard
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "RENARD"
+  m_surname: "Alice"
+  m_email: "alicerenard@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2021 — <0>Parcours informatique — formation vérifiée<0/>."
+  m_experience: "2021–2024 — <1>Mission professionnelle dans une équipe produit<1/>."
+  m_skills: "<2>PreuvesDeRecette : réalisations et limites<2/>. Je peux conduire la qualité de livraison ; mon salaire ne peut pas être nul pour respecter un gel budgétaire."
+  m_hobbies: "Activités associatives, lecture."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "<3>Proposition de contrat : salaire, intégration, pratiques de sécurité et déclarations volontaires<3/>."
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: fabb5a9e0ed54ce1b20345e900333657, type: 3}
+  - {fileID: 9197481963319205126, guid: 6ac76d0b42de407f85d8846977866a1a, type: 3}
+  - {fileID: 9197481963319205126, guid: 123ea330aece4369941b0882c440e837, type: 3}
+  - {fileID: 9197481963319205126, guid: 93066d6017a44bbd98f3dfc7c5f65dbe, type: 3}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: NoemieGarcia
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: 661b07a4c9e34f45b21933dcfcb10f0e, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: 07a48ccdba0145c083c5a3f512248952, type: 2}
+  mesh: {fileID: 2953559930502202895, guid: df9ed9c87c5c2764097515b5c07c6820, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 8371c7d7d1e041d3b22ab332cef8944f, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 1ae1325efd1e441ea026b33e5e8d855b, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: 9fb5e56b344041868cac19748606ecca, type: 2}
+      level: 88
+    performance: 88
+    gender: 1
+    disability: 1
+    monthlySalary: 3800
+    onboardingHours: 2
+    securityRisk: 8

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+  <ui:VisualElement style="width: 100%; height: 100%; background-color: rgb(247, 247, 243); overflow: hidden;">
+    <ui:Label text="https://references.test/alicerenard" style="font-size: 1.7px; white-space: normal; flex-shrink: 0; padding: 1px; background-color: rgb(211, 225, 234); margin: 0;"/>
+    <ui:ScrollView name="evidence-scroll" mode="Vertical" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" style="flex-grow: 1; min-height: 0; width: 100%;">
+      <ui:Label text="Référence professionnelle — Alice" style="font-size: 3px; white-space: normal; -unity-font-style: bold; margin: 2px; padding: 0; flex-shrink: 0;"/>
+      <ui:Label text="Non. Mon travail nécessite un contrat et un salaire. Un objectif budgétaire impossible ne transforme pas le poste en bénévolat.&#10;&#10;Non. J’ai une spécialité en qualité logicielle. Je peux collaborer avec une personne en sécurité, mais je ne remplis pas trois postes distincts.&#10;&#10;Je travaille sur des données synthétiques et des accès limités. Mes pratiques ont été vérifiées ; la difficulté de ce dossier vient des moyens accordés au poste." style="font-size: 2px; white-space: normal; margin: 2px; padding: 0; flex-shrink: 0;"/>
+      <ui:Label text="Document fictif — prototype Resume, Please !" style="font-size: 1.4px; white-space: normal; margin: 2px; flex-shrink: 0; color: rgb(85, 94, 100);"/>
+    </ui:ScrollView>
+  </ui:VisualElement>
+</ui:UXML>

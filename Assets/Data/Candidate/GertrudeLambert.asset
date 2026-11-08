@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: GertrudeLambert
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: 887ff5bf3ac85af439a4093c95717cb0, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: b156e5bb19d82ae4e90ab52cfc3a4ad1, type: 2}
+  mesh: {fileID: 2723425028489263533, guid: 99bfec5a5bdef2e4eba98e815e868f3a, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 16e9e236ed0544f98659903efdcad028, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 3db6165bdd0248a4a02021792bc9202e, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: b188d528c00342bb8c83ca554894221b, type: 2}
+      level: 35
+    performance: 45
+    gender: 0
+    disability: 0

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVChloeMartin
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "MARTIN"
+  m_surname: "Chloé"
+  m_email: "chloemartin@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2022 — <0>Certification React avancé, Académie Interface de Belrive<0/>."
+  m_experience: "2022–2024 — <1>Responsable frontend chez Vitrine Express<1/>."
+  m_skills: "React, TypeScript, accessibilité. <2>Tableau de bord ClientZen<2/>."
+  m_hobbies: "Illustration, réseaux de créateurs."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "Les justificatifs de formation, références et projets sont consultables dans les passages en gras.\n\n<3>Proposition de contrat : salaire, intégration et déclarations volontaires<3/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: f905074c0bb74d719dd56f5785802463, type: 3}
+  - {fileID: 9197481963319205126, guid: ed272d1413e348178ea3ff470da3c206, type: 3}
+  - {fileID: 9197481963319205126, guid: fa250c18bc7a43ae9341bb95b2783145, type: 3}
+  - {fileID: 9197481963319205126, guid: d94431f6d1114a8ab6bdd35fb0c0041a, type: 3}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1a0c3cfeb0c1943bab0bb7a4a188c5, type: 3}
+  m_Name: MLChloeMartin
+  m_EditorClassIdentifier: Assembly-CSharp::MotivationLetters
+  m_content: "Madame, Monsieur,\n\nVotre nouveau poste frontend correspond à mon expérience. Chez <0>Vitrine Express<0/>, je pilotais la conception des interfaces et je veillais à leur accessibilité.\n\nMon <1>tableau de bord ClientZen<1/> montre mon travail sur les composants et les formulaires. Je préfère partir de modèles éprouvés plutôt que de réinventer des solutions : cela permet de livrer rapidement. Je suis prête à prendre la responsabilité de votre nouvelle interface.\n\nChloé Martin\n\n<2>Proposition de contrat : salaire, intégration et déclarations volontaires<2/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: ed272d1413e348178ea3ff470da3c206, type: 3}
+  - {fileID: 9197481963319205126, guid: fa250c18bc7a43ae9341bb95b2783145, type: 3}
+  - {fileID: 9197481963319205126, guid: d94431f6d1114a8ab6bdd35fb0c0041a, type: 3}

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+  <ui:VisualElement style="width: 100%; height: 100%; background-color: rgb(247, 247, 243); overflow: hidden;">
+    <ui:Label text="https://cap-service.test/references/garcia" style="font-size: 1.7px; white-space: normal; flex-shrink: 0; padding: 1px; background-color: rgb(211, 225, 234); margin: 0;"/>
+    <ui:ScrollView name="evidence-scroll" mode="Vertical" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" style="flex-grow: 1; min-height: 0; width: 100%;">
+      <ui:Label text="Référence Cap Service" style="font-size: 3px; white-space: normal; -unity-font-style: bold; margin: 2px; padding: 0; flex-shrink: 0;"/>
+      <ui:Label text="Développeuse frontend dans notre équipe de 2021 à 2024.&#10;&#10;Noémie Garcia a réalisé des composants React, des tests et des corrections d’accessibilité. Elle a ajouté un mécanisme évitant les réponses réseau périmées dans les écrans de recherche.&#10;&#10;Elle travaillait avec les utilisateurs et l’équipe backend. Ses revues expliquaient les cas d’erreur et les limites des solutions proposées." style="font-size: 2px; white-space: normal; margin: 2px; padding: 0; flex-shrink: 0;"/>
+      <ui:Label text="Document fictif — prototype Resume, Please !" style="font-size: 1.4px; white-space: normal; margin: 2px; flex-shrink: 0; color: rgb(85, 94, 100);"/>
+    </ui:ScrollView>
+  </ui:VisualElement>
+</ui:UXML>

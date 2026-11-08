@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1a0c3cfeb0c1943bab0bb7a4a188c5, type: 3}
+  m_Name: MLLucasPerrin
+  m_EditorClassIdentifier: Assembly-CSharp::MotivationLetters
+  m_content: "Madame, Monsieur,\n\nVotre offre backend correspond parfaitement à mes cinq années de Java. Chez <0>NexaFlux, où je dirigeais le développement<0/>, j’ai appris à livrer vite sans me perdre dans les détails.\n\nMon <1>API de facturation Facturo<1/> démontre mon autonomie. Je saurai prendre vos services en main dès mon arrivée. Je privilégie les résultats : dans une petite équipe, les titres et les dates ne disent pas tout.\n\nJe suis disponible immédiatement.\n\nLucas Perrin\n\n<2>Proposition de contrat : salaire, intégration et déclarations volontaires<2/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: 946531dc1a224120bdececa970ecb79a, type: 3}
+  - {fileID: 9197481963319205126, guid: 4868c3504e814f78bcd90cc75b168250, type: 3}
+  - {fileID: 9197481963319205126, guid: 1731e8947a514f15942a90263a69f1cb, type: 3}

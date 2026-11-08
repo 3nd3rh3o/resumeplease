@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1a0c3cfeb0c1943bab0bb7a4a188c5, type: 3}
+  m_Name: MLSachaRoux
+  m_EditorClassIdentifier: Assembly-CSharp::MotivationLetters
+  m_content: "Madame, Monsieur,\n\nJe suis spécialiste des interfaces web et je cherche une équipe produit attentive à l’usage. Chez <0>Pixel Local<0/>, j’ai développé des interfaces React et amélioré leur navigation au clavier.\n\n<1>RendezVousFacile<1/> montre mon travail sur les formulaires et les retours d’erreur. Je consomme des API, mais je ne les développe pas encore en Java. Le formulaire de candidature regroupait plusieurs métiers et ne précisait pas clairement lequel était ouvert.\n\nSi vous recrutez exclusivement pour le backend Java, mon expérience ne correspond probablement pas à votre besoin actuel.\n\nSacha Roux\n\n<2>Proposition de contrat : salaire, intégration et déclarations volontaires<2/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: b00c27a73f6c44fbb11e7f8724d007dd, type: 3}
+  - {fileID: 9197481963319205126, guid: b8d9d11ca7164ef69e73fa359a31bbba, type: 3}
+  - {fileID: 9197481963319205126, guid: 49cdfc1daa7b4f198e66401844b9f10f, type: 3}

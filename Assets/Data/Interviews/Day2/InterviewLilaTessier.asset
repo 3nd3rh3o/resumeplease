@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewLilaTessier
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Quelle était votre responsabilité sur RecettePartagée ?"
+      response: "Je construisais les scénarios avec les utilisateurs, puis je choisissais lesquels automatiser. Une facture comptée deux fois était bloquante ; un décalage de mise en page attendait."
+    second:
+      question: "Votre CV parle de tests exploratoires. Qu’apportaient-ils ?"
+      response: "Nous cherchions les usages oubliés par les cas automatisés : retour arrière, reprise après interruption et saisies incomplètes. Je gardais une trace reproductible des anomalies."
+  - first:
+      question: "Comment choisissez-vous les premiers tests à automatiser ?"
+      response: "Je commence par les parcours fréquents et ceux qui peuvent perdre des données. Je vérifie que le test échoue pour la bonne raison et je stabilise les données de départ."
+    second:
+      question: "Que faites-vous d’un test qui échoue une fois sur dix ?"
+      response: "Je cherche une dépendance au temps, un état partagé ou une attente incorrecte. Le relancer dix fois ne rend pas le produit fiable. Je distingue le défaut du test et celui de l’application."
+  - first:
+      question: "Quelles conditions vous permettraient de prendre ce poste ?"
+      response: "Je demande 3100 € brut par mois. Pour mon intégration, il faut prévoir 2 heures d’accompagnement par semaine. Je peux organiser la recette et automatiser les parcours critiques sans attendre une équipe de test complète."
+    second:
+      question: "Comment gérez-vous les données et les accès de production ?"
+      response: "Je travaille sur des jeux de données synthétiques. Les accès de recette sont nominatifs et limités ; je n’exporte pas de fichiers clients sur mon ordinateur personnel."

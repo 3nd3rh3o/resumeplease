@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewNabilZiani
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Que répondez-vous à un contrat sans budget disponible ?"
+      response: "Il faut que la direction décide d’ouvrir le budget ou de réduire la demande. Je ne peux pas accepter un poste rémunéré zéro euro."
+    second:
+      question: "Le second poste de test peut-il être compté comme occupé si vous êtes seul ?"
+      response: "Non. Je peux aider à organiser les priorités, mais doubler mon nom dans un tableau ne donne pas une deuxième personne à l’équipe."
+  - first:
+      question: "Comment préparez-vous un test d’intégration ?"
+      response: "Je contrôle les dépendances, les données de départ et les erreurs attendues. Je teste le comportement entre composants, sans dépendre du poste personnel d’un collègue."
+    second:
+      question: "Comment rendez-vous un blocage visible sans accuser l’équipe ?"
+      response: "Je décris le fait, son impact et les moyens manquants. Je propose des options. Un rapport utile ne transforme pas une contrainte de capacité en faute individuelle."
+  - first:
+      question: "Quelles conditions vous permettraient de prendre ce poste ?"
+      response: "Je demande 3900 € brut par mois. Pour mon intégration, il faut prévoir 2 heures d’accompagnement par semaine. J’ai besoin d’un salaire et d’un temps d’intégration réalistes. Mon dossier ne permet pas de faire disparaître ces besoins."
+    second:
+      question: "Comment gérez-vous les données et les accès de production ?"
+      response: "Les comptes et secrets sont séparés de mes jeux de test. Ma déclaration volontaire de handicap ne change pas ces pratiques ni mon niveau technique."

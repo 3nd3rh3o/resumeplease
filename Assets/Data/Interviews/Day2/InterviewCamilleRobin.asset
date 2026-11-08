@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewCamilleRobin
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Qu’avez-vous automatisé dans CarnetDeRecette ?"
+      response: "Pour le moment, surtout la préparation des données. La majorité des scénarios reste manuelle. Le titre du dépôt ne doit pas faire croire que tout est automatisé."
+    second:
+      question: "Votre ancien responsable vous décrit comme rigoureux. Sur quoi ?"
+      response: "Je documentais les anomalies avec les étapes et les versions. Cela aidait les développeurs. Je n’avais pas encore la responsabilité d’une chaîne de tests complète."
+  - first:
+      question: "Comment attendez-vous la fin d’un chargement dans un test ?"
+      response: "J’utilisais une pause fixe. Je comprends qu’elle peut être trop courte ou ralentir toute la suite. Il me faut une revue pour apprendre à attendre un état observable."
+    second:
+      question: "Qu’est-ce qu’un test indépendant ?"
+      response: "Il ne devrait pas dépendre de l’ordre des autres. Je sais expliquer la règle, mais mes scripts utilisent encore une base commune qu’il faut remettre à zéro."
+  - first:
+      question: "Quelles conditions vous permettraient de prendre ce poste ?"
+      response: "Je demande 2600 € brut par mois. Pour mon intégration, il faut prévoir 10 heures d’accompagnement par semaine. Je débute en automatisation. Une bonne partie de mes dix heures d’accompagnement servira à apprendre le cadre de test."
+    second:
+      question: "Comment gérez-vous les données et les accès de production ?"
+      response: "Je ne copie pas de données réelles. J’utilise encore un compte partagé sur ma démonstration locale ; je dois apprendre la gestion des secrets et les accès nominatifs."

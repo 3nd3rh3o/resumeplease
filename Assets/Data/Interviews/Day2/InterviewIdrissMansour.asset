@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewIdrissMansour
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Pourquoi votre stage et votre diplôme ont-ils les mêmes dates ?"
+      response: "C’était une alternance. Les périodes à l’école et dans l’entreprise relevaient du même contrat, pas de deux emplois simultanés."
+    second:
+      question: "Quelle limite avez-vous documentée dans FileDeTests ?"
+      response: "La suite couvre les parcours utilisateur, mais elle ne mesure pas encore le comportement de cent utilisateurs simultanés. Je ne la présente pas comme un test de charge."
+  - first:
+      question: "Comment vérifier qu’une correction ne casse pas les réservations ?"
+      response: "Je reproduis l’anomalie, puis je vérifie création, annulation et concurrence sur le même créneau. Les données de chaque test doivent être indépendantes."
+    second:
+      question: "Un responsable veut ignorer une anomalie bloquante. Que faites-vous ?"
+      response: "Je décris le risque et les utilisateurs touchés. Je propose de réduire le périmètre de la livraison. La décision doit être explicite, plutôt que de changer la couleur du rapport."
+  - first:
+      question: "Quelles conditions vous permettraient de prendre ce poste ?"
+      response: "Je demande 2900 € brut par mois. Pour mon intégration, il faut prévoir 3 heures d’accompagnement par semaine. Je suis autonome sur les tests de formulaires et demande une revue pour les campagnes de charge."
+    second:
+      question: "Comment gérez-vous les données et les accès de production ?"
+      response: "J’utilise des comptes de test temporaires et des données fictives. J’ai demandé une procédure de révocation des accès. Je déclare volontairement ma situation de handicap ; elle ne modifie ni mes compétences ni mon salaire demandé."

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewZoeFaure
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Pourquoi demander autant d’accompagnement avec votre niveau Java ?"
+      response: "Je n’ai jamais exploité seule un service en production. Je peux coder la logique métier, mais j’ai besoin d’apprendre vos outils et votre procédure d’incident."
+    second:
+      question: "Le salaire bas réduit-il votre besoin de tutorat ?"
+      response: "Non. C’est ma demande de salaire pour ce poste, pas une promesse d’autonomie immédiate. Les heures d’accompagnement restent nécessaires."
+  - first:
+      question: "Comment testez-vous une règle métier Java ?"
+      response: "Je vérifie les entrées valides, les refus et les limites. Je sépare les tests de logique et ceux qui utilisent une base pour diagnostiquer les échecs."
+    second:
+      question: "Que faites-vous lors de votre premier incident de production ?"
+      response: "J’alerte la personne prévue, je conserve les observations et j’évite de modifier à l’aveugle. Je ne prétends pas être déjà prête à assurer seule les astreintes."
+  - first:
+      question: "Quelles conditions vous permettraient de prendre ce poste ?"
+      response: "Je demande 2400 € brut par mois. Pour mon intégration, il faut prévoir 14 heures d’accompagnement par semaine. Je maîtrise Java sur un périmètre connu, mais je demande quatorze heures de tutorat par semaine pour ce premier poste dans votre environnement."
+    second:
+      question: "Comment gérez-vous les données et les accès de production ?"
+      response: "J’utilise des jeux de données fictifs et un coffre de secrets fourni par mon équipe. Mon besoin d’accompagnement vient de l’environnement de production, pas de pratiques dangereuses."

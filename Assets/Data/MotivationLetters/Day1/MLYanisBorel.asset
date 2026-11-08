@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1a0c3cfeb0c1943bab0bb7a4a188c5, type: 3}
+  m_Name: MLYanisBorel
+  m_EditorClassIdentifier: Assembly-CSharp::MotivationLetters
+  m_content: "Madame, Monsieur,\n\nAprès ma formation et un stage chez <0>Billet Local<0/>, je cherche mon premier poste frontend. Je sais construire une interface et prendre en compte des retours utilisateurs. Je progresse encore sur les effets React et les chargements concurrents.\n\nMon <1>projet SortiesQuartier<1/> présente mes acquis et les points que je dois consolider. Je souhaite une équipe qui pourra relire mes premières évolutions ; je ne veux pas me présenter comme confirmé alors que je débute.\n\nYanis Borel\n\n<2>Proposition de contrat : salaire, intégration et déclarations volontaires<2/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: f2ab43018f3146a88e18bf5441613273, type: 3}
+  - {fileID: 9197481963319205126, guid: f2fd0fdb678d4fea93e3b6f95595a069, type: 3}
+  - {fileID: 9197481963319205126, guid: d8dd0401bfd84c7080ca2d8622fa2a42, type: 3}

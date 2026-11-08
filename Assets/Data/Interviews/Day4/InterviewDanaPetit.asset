@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewDanaPetit
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Que confirme la référence sur vos missions Java ?"
+      response: "Je concevais des endpoints et leurs tests. Les décisions d’architecture restaient collectives ; je ne revendique pas seule tout le service."
+    second:
+      question: "Pourquoi TransactionsLocales comporte-t-il un scénario de panne ?"
+      response: "Une écriture pouvait réussir sans que le client reçoive la réponse. Le test vérifie qu’une nouvelle tentative ne crée pas de doublon."
+  - first:
+      question: "Comment protégez-vous une opération concurrente ?"
+      response: "Je définis la règle métier et m’appuie sur une transaction et une contrainte en base. Je traite explicitement le conflit ; une vérification préalable seule ne suffit pas."
+    second:
+      question: "Que faites-vous avant une migration de données ?"
+      response: "Je vérifie les sauvegardes et le retour arrière, puis je teste la migration sur un jeu représentatif et anonymisé. Je mesure ce qui peut bloquer le service."
+  - first:
+      question: "Quelles conditions vous permettraient de prendre ce poste ?"
+      response: "Je demande 4100 € brut par mois. Pour mon intégration, il faut prévoir 2 heures d’accompagnement par semaine. Je peux prendre les évolutions Java courantes. Deux heures de revue hebdomadaire suffisent pour apprendre vos conventions."
+    second:
+      question: "Comment gérez-vous les données et les accès de production ?"
+      response: "Je n’utilise pas de données clients pour mes démonstrations. Les secrets sont stockés hors du dépôt et les accès de production sont revus par une seconde personne."

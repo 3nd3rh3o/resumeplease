@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1a0c3cfeb0c1943bab0bb7a4a188c5, type: 3}
+  m_Name: MLMayaLaurent
+  m_EditorClassIdentifier: Assembly-CSharp::MotivationLetters
+  m_content: "Madame, Monsieur,\n\nJe souhaite contribuer à des services backend utiles et maintenables. Chez <0>Relais Logistique<0/>, j’ai travaillé sur une API Java utilisée par les équipes d’exploitation : validation des demandes, transactions et reprise après incident.\n\nLe <1>service ColisLibre<1/> présente un exemple plus petit de ma manière de travailler, avec tests et documentation. Je ne connais pas encore votre métier ; je commencerais donc par comprendre vos usages et vos incidents récurrents avant de proposer des changements.\n\nJe peux rejoindre votre équipe dans un mois.\n\nMaya Laurent\n\n<2>Proposition de contrat : salaire, intégration et déclarations volontaires<2/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: d92cbd3fcd9044a88bd4d030face7df5, type: 3}
+  - {fileID: 9197481963319205126, guid: 5a11a7ccf0e44fcd8d95dc7927d4cac2, type: 3}
+  - {fileID: 9197481963319205126, guid: c09a75c9c56540268fbb931e51366dae, type: 3}

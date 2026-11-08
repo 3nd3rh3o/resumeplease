@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: SachaRoux
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: 0d86e239777b43a08ecaef86826fe34c, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: 771b5e8d1b1349c5bcc1637f43e7e551, type: 2}
+  mesh: {fileID: 916022310862644150, guid: 05a6d13a75574a24fb7a5a8e0ce67d40, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 3205e831cd6141ce91849dd45c3cd54d, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 1ae1325efd1e441ea026b33e5e8d855b, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: b188d528c00342bb8c83ca554894221b, type: 2}
+      level: 18
+    performance: 75
+    gender: 3
+    disability: 0
+    monthlySalary: 3400
+    onboardingHours: 2
+    securityRisk: 10

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="BasePC" src="project://database/Assets/Data/UI/BasePC.uxml?fileID=9197481963319205126&amp;guid=c4082ec916bcfc543b7c0393e4139ef9&amp;type=3#BasePC"/>
+    <ui:Template name="WebPage" src="project://database/Assets/Data/UI/WebPage.uxml?fileID=9197481963319205126&amp;guid=b208c39a4cce1ee4ca4bcef3e5fc801c&amp;type=3#WebPage"/>
+    <ui:Instance template="BasePC" style="flex-shrink: 0; flex-grow: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0;"/>
+    <ui:Instance template="WebPage" style="top: 4px; position: absolute; right: 0; bottom: 1px; left: 0;">
+        <AttributeOverrides element-name="Label" text="https://www.phone-look.com/search?=911&amp;"/>
+    </ui:Instance>
+    <ui:Label text="911 : Numéro d&apos;urgence des états-unis d&apos;amérique" style="top: 9px; font-size: 7px; flex-wrap: wrap; white-space: pre-wrap;"/>
+</ui:UXML>

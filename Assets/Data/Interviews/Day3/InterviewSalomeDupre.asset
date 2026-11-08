@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewSalomeDupre
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Avez-vous conduit seule le dernier audit de votre CV ?"
+      response: "Non. Je préparais les comptes et les preuves pour une auditrice confirmée. Le rapport nomme clairement nos responsabilités."
+    second:
+      question: "Que manque-t-il à JournalDesAccès ?"
+      response: "Les accès temporaires sont suivis, mais nous n’avons pas encore testé tous les scénarios de reprise. Je l’ai indiqué dans les limites."
+  - first:
+      question: "Comment distinguer authentification et autorisation ?"
+      response: "L’authentification vérifie qui se présente. L’autorisation vérifie ce que cette identité peut faire. Un utilisateur connecté ne doit pas pouvoir lire tous les dossiers."
+    second:
+      question: "Comment commencer un audit dont le périmètre est flou ?"
+      response: "Je clarifie les actifs, les accès autorisés pour les tests et les personnes à prévenir. Pour un audit complet, je demanderais encore une supervision."
+  - first:
+      question: "Quelles conditions vous permettraient de prendre ce poste ?"
+      response: "Je demande 3600 € brut par mois. Pour mon intégration, il faut prévoir 5 heures d’accompagnement par semaine. Je peux traiter les accès courants, mais j’ai encore besoin d’une revue pour conduire seule un audit complet."
+    second:
+      question: "Comment gérez-vous les données et les accès de production ?"
+      response: "Je ne travaille que sur le périmètre autorisé et des données de test. Je n’ai pas déclaré d’information sur une éventuelle situation de handicap ; il ne faut pas l’inférer."

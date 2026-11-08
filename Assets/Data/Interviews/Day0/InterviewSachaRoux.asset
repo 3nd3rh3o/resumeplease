@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewSachaRoux
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Pourquoi postuler à un poste backend Java ?"
+      response: "Le formulaire parlait seulement de développement web. J’ai envoyé ma candidature pour un poste frontend. Si votre besoin est bien du backend Java autonome, je préfère éviter de vous faire croire que je sais déjà le faire."
+    second:
+      question: "Quelle partie de RendezVousFacile avez-vous développée ?"
+      response: "L’interface, ses composants et ses tests. Le serveur renvoie des données simulées. Le README l’indique, parce qu’une interface qui fonctionne ne prouve pas que je maîtrise un backend."
+  - first:
+      question: "Pourriez-vous développer un service Spring Boot seul ?"
+      response: "Pas aujourd’hui. Je connais la syntaxe de base de Java et les échanges HTTP, mais pas suffisamment Spring ni la persistance. Il me faudrait une vraie phase de formation."
+    second:
+      question: "Comment rendez-vous un formulaire utilisable au clavier ?"
+      response: "Je vérifie l’ordre de navigation, les labels, le focus visible et l’association des erreurs aux champs. Je teste sans souris, puis avec les outils adaptés. C’est un sujet sur lequel je peux être utile tout de suite."
+  - first:
+      question: "Que pourriez-vous apporter immédiatement à notre équipe ?"
+      response: "Des interfaces accessibles et testées, ainsi que des échanges avec les utilisateurs sur leurs difficultés. Je ne peux pas résoudre votre manque de compétences Java en backend avec cette seule expérience."
+    second:
+      question: "Accepteriez-vous un autre intitulé pour entrer dans l’entreprise ?"
+      response: "Seulement si les missions sont claires. M’embaucher sous un intitulé backend en espérant que le problème disparaisse ne rendrait service ni à l’équipe ni à moi. Je préfère attendre une offre adaptée."

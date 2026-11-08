@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1a0c3cfeb0c1943bab0bb7a4a188c5, type: 3}
+  m_Name: MLInesVidal
+  m_EditorClassIdentifier: Assembly-CSharp::MotivationLetters
+  m_content: "Madame, Monsieur,\n\nAprès quatre ans sur les services Python d’<0>Atelier Données<0/>, je souhaite rejoindre une équipe backend Java. Je maîtrise la conception d’API et les bases de données, mais je ne prétends pas être immédiatement autonome sur tout l’écosystème Java.\n\nMon <1>projet SuiviStock<1/> accompagne ma formation du soir. J’aimerais bénéficier d’une relecture régulière pendant ma prise de poste, puis contribuer à vos services existants.\n\nSi votre besoin impose une autonomie Java immédiate, je préfère le savoir dès maintenant.\n\nInès Vidal\n\n<2>Proposition de contrat : salaire, intégration et déclarations volontaires<2/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: a3d963ba2b1d4762989f19645b4d874f, type: 3}
+  - {fileID: 9197481963319205126, guid: 78e0bc8a3c47465c9f022211f83fdf9d, type: 3}
+  - {fileID: 9197481963319205126, guid: 78e0457516a7421dab460618e99959a5, type: 3}

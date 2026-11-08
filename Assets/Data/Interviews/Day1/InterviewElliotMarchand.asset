@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewElliotMarchand
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "PlanningVoisins chevauche votre emploi : comment l’expliquez-vous ?"
+      response: "C’était un projet bénévole, quelques soirées par mois. Mon employeur le savait. Je n’ai pas occupé deux postes à temps plein ; j’ai séparé les deux activités dans les documents du projet."
+    second:
+      question: "Quelles évolutions réalisiez-vous seul chez Maison Partagée ?"
+      response: "Les formulaires, les listes et leurs tests, après clarification du besoin. Pour l’authentification, je demandais une revue spécialisée. Je peux expliquer mes limites sans laisser tous les sujets à quelqu’un d’autre."
+  - first:
+      question: "Que faites-vous quand une requête échoue pendant un formulaire ?"
+      response: "Je garde les valeurs saisies et j’affiche une erreur associée à l’action. Je distingue les erreurs de validation et de réseau. Une nouvelle tentative ne doit pas créer de doublon si la première écriture a malgré tout réussi."
+    second:
+      question: "Comment testez-vous un composant React de réservation ?"
+      response: "Je teste ce que fait l’utilisateur : choisir un créneau, valider, voir un succès ou un conflit. Je contrôle aussi le chargement et les erreurs. Les détails internes du composant ne sont pas mon premier critère."
+  - first:
+      question: "Que faudrait-il encore vérifier sur l’accessibilité de votre projet ?"
+      response: "Nous avons les labels, le clavier et des contrôles automatisés. Il manque une revue plus complète avec des utilisateurs de lecteurs d’écran. Je ne présenterais pas un audit automatique comme une preuve suffisante."
+    second:
+      question: "Comment réagissez-vous à deux priorités contradictoires ?"
+      response: "Je demande quel risque doit être traité en premier et je propose un ordre explicite. Je ne promets pas deux livraisons simultanées si je sais que cela dégradera la qualité. Je documente l’arbitrage pour l’équipe."

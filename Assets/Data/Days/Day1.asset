@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209e9f8ee127de645bc8458a7727596a, type: 3}
+  m_Name: Day1
+  m_EditorClassIdentifier: Assembly-CSharp::DayDefinition
+  title: "Jour 1 - Une interface fiable"
+  briefing: "Le service backend doit maintenant être utilisé par les équipes de terrain. Recrutez une personne autonome en React pour construire une interface fiable et accessible. Les salariés recrutés hier restent dans l’équipe."
+  newConstraints: "Le poste recherché passe du backend Java au frontend React, avec un niveau minimal de 65/100. Vous disposez de deux entretiens au lieu de trois. La performance moyenne de l’ensemble de l’équipe doit atteindre 70/100 : les décisions de la veille comptent aussi."
+  nextScenePath: Assets/Scenes/Day2.unity
+  candidates:
+  - {fileID: 11400000, guid: 670c61760cc7400398b7a2b790ca953d, type: 2}
+  - {fileID: 11400000, guid: 79de6b0f046d45acbd20c8a922c21f44, type: 2}
+  - {fileID: 11400000, guid: dfdedeaaa586433b90beddc0ba472d06, type: 2}
+  - {fileID: 11400000, guid: 301c855f68b644439462e20a57d76cf4, type: 2}
+  interviewCapacity: 2
+  recruitment:
+  - role: {fileID: 11400000, guid: 1ae1325efd1e441ea026b33e5e8d855b, type: 2}
+    hiresRequired: 1
+    requiredSkills:
+    - skill: {fileID: 11400000, guid: 9fb5e56b344041868cac19748606ecca, type: 2}
+      level: 65
+  composition: []
+  requirePerformance: 1
+  minimumAveragePerformance: 70
+  failureRules:
+  - metric: 0
+    comparison: 2
+    threshold: 2
+    ending: 1
+    title: "Le fusible RH"
+    message: "Deux journées consécutives se terminent avec des objectifs manqués. La direction met fin à votre mission sans revoir les moyens accordés. Ce bilan décrit les choix et leurs contraintes ; il ne mesure pas votre valeur ni celle des personnes candidates."
+  - metric: 1
+    comparison: 0
+    threshold: 55
+    ending: 1
+    title: "Une équipe privée de moyens"
+    message: "La performance de l’équipe est passée sous le seuil critique fixé par la direction. Les besoins de formation et les recrutements inadaptés se sont accumulés. La direction choisit de remplacer la personne chargée des RH."

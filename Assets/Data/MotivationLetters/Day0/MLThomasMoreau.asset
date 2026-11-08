@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1a0c3cfeb0c1943bab0bb7a4a188c5, type: 3}
+  m_Name: MLThomasMoreau
+  m_EditorClassIdentifier: Assembly-CSharp::MotivationLetters
+  m_content: "Madame, Monsieur,\n\nMon alternance chez <0>CoopAgenda<0/> m’a permis de travailler sur de vraies demandes utilisateurs, puis d’assurer une partie de la maintenance de leur application Java. Je cherche maintenant un poste backend où continuer à progresser.\n\nJe contribue aussi à <1>PlanningClub pour une association<1/>. Ce projet a commencé pendant mes études, le soir ; il ne s’agissait pas d’un second emploi à temps plein. J’y ai appris à expliquer mes choix à des personnes non techniques.\n\nJe peux prendre en charge des évolutions courantes, avec une revue sur les sujets nouveaux.\n\nThomas Moreau\n\n<2>Proposition de contrat : salaire, intégration et déclarations volontaires<2/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: dc7d506885944456a1697e2cf4e58724, type: 3}
+  - {fileID: 9197481963319205126, guid: a2f64e7fcd2e4a46b78f88991e2ae3a3, type: 3}
+  - {fileID: 9197481963319205126, guid: 1b59c0d704cb4f8691071b2d65ce8e52, type: 3}

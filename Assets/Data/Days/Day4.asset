@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209e9f8ee127de645bc8458a7727596a, type: 3}
+  m_Name: Day4
+  m_EditorClassIdentifier: Assembly-CSharp::DayDefinition
+  title: "Jour 4 - Former avec quel temps ?"
+  briefing: "La livraison a été avancée. Il faut renforcer le backend et le frontend pendant que les collègues accompagnent encore les prises de poste de cette semaine."
+  newConstraints: "Deux recrutements distincts : Java et React à 70/100 minimum. Trois entretiens disponibles. La capacité d’accompagnement de toute l’équipe est de 12 h/semaine ; au-delà de 18 h, la surcharge provoque un arrêt. Les besoins d’intégration des jours précédents continuent de mobiliser cette même semaine. Budget total : 23 000 € ; performance moyenne minimale : 75/100."
+  nextScenePath: "Assets/Scenes/Day5.unity"
+  candidates:
+  - {fileID: 11400000, guid: 1582fbc4aa8e461d8ce3e6a05d42ac07, type: 2}
+  - {fileID: 11400000, guid: 1d408ba6c8db4aa297d61ee796199e9d, type: 2}
+  - {fileID: 11400000, guid: d4463fb8dec74a3480d4edff06005c72, type: 2}
+  - {fileID: 11400000, guid: 512c0b4aedda4926a949c125cede2a4b, type: 2}
+  interviewCapacity: 3
+  recruitment:
+  - role: {fileID: 11400000, guid: 3db6165bdd0248a4a02021792bc9202e, type: 2}
+    hiresRequired: 1
+    requiredSkills:
+    - skill: {fileID: 11400000, guid: b188d528c00342bb8c83ca554894221b, type: 2}
+      level: 70
+  - role: {fileID: 11400000, guid: 1ae1325efd1e441ea026b33e5e8d855b, type: 2}
+    hiresRequired: 1
+    requiredSkills:
+    - skill: {fileID: 11400000, guid: 9fb5e56b344041868cac19748606ecca, type: 2}
+      level: 70
+  composition:
+  - metric: 0
+    minimumPercent: 40
+  - metric: 3
+    minimumPercent: 20
+  requirePerformance: 1
+  minimumAveragePerformance: 75
+  requireSalaryBudget: 1
+  maximumMonthlyPayroll: 23000
+  requireNewHireBudget: 0
+  maximumNewHireMonthlyPayroll: 0
+  requireOnboardingCapacity: 1
+  maximumOnboardingHours: 12
+  requireSecurity: 1
+  maximumSecurityRisk: 30
+  failureRules:
+  - metric: 3
+    comparison: 1
+    threshold: 18
+    ending: 4
+    title: "Trop de prises de poste, trop peu de temps"
+    message: "Les heures d’accompagnement promises dépassent la capacité critique de l’équipe. Les collègues doivent former, produire et gérer les urgences simultanément. La surcharge provoque des arrêts et suspend les recrutements. Un salaire plus bas ne crée pas du temps de tutorat."
+  - metric: 4
+    comparison: 2
+    threshold: 70
+    ending: 3
+    title: "Des données hors de contrôle"
+    message: "Une pratique dangereuse signalée dans un dossier a été maintenue après le recrutement : des données de production sont parties sur un espace personnel. L’activité est suspendue. La compétence technique ne suffisait pas à garantir des pratiques sûres."
+  - metric: 2
+    comparison: 1
+    threshold: 25000
+    ending: 2
+    title: "La trésorerie ne suit plus"
+    message: "La masse salariale dépasse le plafond critique annoncé. La trésorerie ne permet plus de couvrir les contrats engagés et l’activité s’arrête. Demander des recrutements sans financer les postes reporte un problème structurel sur les RH."
+  - metric: 1
+    comparison: 0
+    threshold: 55
+    ending: 1
+    title: "Une équipe privée de moyens"
+    message: "La performance de l’équipe est passée sous le seuil critique fixé par la direction. Les besoins de formation et les recrutements inadaptés se sont accumulés. La direction choisit de remplacer la personne chargée des RH."
+  - metric: 0
+    comparison: 2
+    threshold: 2
+    ending: 1
+    title: "Le fusible RH"
+    message: "Deux journées consécutives se terminent avec des objectifs manqués. La direction met fin à votre mission sans revoir les moyens accordés. Ce bilan décrit les choix et leurs contraintes ; il ne mesure pas votre valeur ni celle des personnes candidates."
+  isFinalDay: 0
+  finalMessage: ""

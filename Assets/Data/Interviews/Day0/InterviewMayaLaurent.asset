@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewMayaLaurent
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Comment avez-vous corrigé les réservations dupliquées ?"
+      response: "Le client réessayait après un délai d’attente, alors que la première écriture avait réussi. Nous avons ajouté une clé d’idempotence et une contrainte en base. J’ai reproduit le problème avec deux requêtes concurrentes avant de valider la correction."
+    second:
+      question: "Quel était votre rôle exact chez Relais Logistique ?"
+      response: "Je développais des endpoints et leurs tests, puis je participais aux revues. Je n’étais pas responsable de toute la plateforme. Pour les incidents, je travaillais avec une personne de l’exploitation qui connaissait mieux l’infrastructure."
+  - first:
+      question: "Une facture ne doit être créée qu’une fois : que prévoyez-vous ?"
+      response: "Une clé d’idempotence liée à la demande, une transaction et une contrainte d’unicité en base. Désactiver le bouton ne suffit pas. Je teste aussi le cas où le client ne reçoit pas la réponse alors que l’écriture a réussi."
+    second:
+      question: "Que faites-vous si la base devient indisponible ?"
+      response: "Je distingue une erreur temporaire d’une entrée invalide et je borne les délais. Je ne renvoie pas un faux succès. Selon le besoin, une reprise peut être possible, mais elle doit éviter les doublons et être observable."
+  - first:
+      question: "Que feriez-vous pendant votre première semaine ici ?"
+      response: "Je lancerais le projet, lirais les incidents récents et suivrais une demande de bout en bout. Je chercherais un petit correctif avec un test pour apprendre vos conventions, avant de toucher aux parties sensibles."
+    second:
+      question: "Comment arbitrez-vous entre livrer vite et ajouter des tests ?"
+      response: "Je protège d’abord les règles qui coûtent cher si elles cassent : données, paiements, droits. Pour une modification limitée, un test ciblé vaut mieux qu’une grosse campagne sans rapport. Si nous acceptons une dette, je veux qu’elle soit explicite."

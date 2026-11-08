@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewYanisBorel
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Qu’avez-vous réalisé pendant votre stage ?"
+      response: "Des corrections de mise en page, les labels de formulaires et quelques composants simples. Mon tuteur relisait le code. Je n’ai pas conçu seul les appels réseau de l’application."
+    second:
+      question: "Quelles limites avez-vous laissées dans SortiesQuartier ?"
+      response: "Si l’on change très vite de filtre, une ancienne réponse peut encore s’afficher. Je l’ai documenté. Je dois aussi ajouter des tests de composants ; pour l’instant, mes vérifications sont manuelles."
+  - first:
+      question: "Comment empêcher une ancienne réponse de remplacer la nouvelle ?"
+      response: "Je sais identifier le problème, mais je ne maîtrise pas encore la bonne utilisation du nettoyage d’effet ou d’un identifiant de requête. Je demanderais une revue plutôt que de masquer le bug."
+    second:
+      question: "Comment vérifiez-vous un formulaire sans utiliser de souris ?"
+      response: "Je parcours les champs avec Tab, je vérifie le focus et les labels, puis j’essaie les erreurs. J’ai appris cela pendant le stage. Il me reste à automatiser une partie de ces vérifications."
+  - first:
+      question: "De quel encadrement avez-vous besoin dès cette semaine ?"
+      response: "Un premier sujet limité et une personne qui peut relire mes choix d’état et de chargement. Je peux livrer de l’intégration, mais je ne suis pas encore autonome sur toute une interface React."
+    second:
+      question: "Que faites-vous si une tâche dépasse votre niveau actuel ?"
+      response: "Je décompose ce que je sais faire et ce que je dois apprendre. Je signale le risque rapidement. Je préfère une estimation honnête à un écran qui a l’air fini mais perd des données."

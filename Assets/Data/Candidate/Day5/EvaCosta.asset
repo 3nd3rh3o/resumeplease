@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: EvaCosta
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: a5a89442268a430ea65cbfb5dd85f216, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: ed72b6cc0553476386f6809fad23de70, type: 2}
+  mesh: {fileID: 8253318376491625675, guid: 58c88a8c466cff0458e42a644e39c55f, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 3f5f03b17efa4f8c8d9f935465d77c1f, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 7c5464c9e05d4271befe6b4f33e21ff6, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: cc8de3564145418eb1115a0856b67511, type: 2}
+      level: 88
+    performance: 90
+    gender: 1
+    disability: 1
+    monthlySalary: 4500
+    onboardingHours: 2
+    securityRisk: 5

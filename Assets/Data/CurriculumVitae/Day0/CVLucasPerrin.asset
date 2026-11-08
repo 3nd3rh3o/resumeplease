@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVLucasPerrin
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "PERRIN"
+  m_surname: "Lucas"
+  m_email: "lucasperrin@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2021 — <0>Certificat Architecte Java, Institut Numérique de Belrive<0/>."
+  m_experience: "2021–2024 — <1>Lead backend chez NexaFlux<1/>. Pilotage des API et d’une équipe de quatre personnes."
+  m_skills: "Java expert, Spring Boot, SQL. <2>API de facturation Facturo<2/>."
+  m_hobbies: "Course à pied, montage vidéo."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "Documents de formation, référence employeur et projet consultables ci-dessus.\n\n<3>Proposition de contrat : salaire, intégration et déclarations volontaires<3/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: 2d12f0ed625d46b39934b43a9edfff7f, type: 3}
+  - {fileID: 9197481963319205126, guid: 946531dc1a224120bdececa970ecb79a, type: 3}
+  - {fileID: 9197481963319205126, guid: 4868c3504e814f78bcd90cc75b168250, type: 3}
+  - {fileID: 9197481963319205126, guid: 1731e8947a514f15942a90263a69f1cb, type: 3}

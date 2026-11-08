@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: AliceRenard
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: f9fcd303ee26467fa176db4837989ea1, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: 4f189a21cd2446609ce96e45e3446395, type: 2}
+  mesh: {fileID: 5711999917634464806, guid: ee26fcc35a601c04fbab9fd454cbeb2c, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 5a67ecf291944ba6a2a08b65355941ba, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 2cd75bdffe0c4c6c822e47d854208ca5, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: 89720d5046d249c692e6a1427f313218, type: 2}
+      level: 90
+    performance: 90
+    gender: 1
+    disability: 1
+    monthlySalary: 4200
+    onboardingHours: 2
+    securityRisk: 5

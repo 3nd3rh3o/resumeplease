@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1a0c3cfeb0c1943bab0bb7a4a188c5, type: 3}
+  m_Name: MLElliotMarchand
+  m_EditorClassIdentifier: Assembly-CSharp::MotivationLetters
+  m_content: "Madame, Monsieur,\n\nChez <0>Maison Partagée<0/>, je réalisais des écrans de gestion pour une petite équipe. Je suis à l’aise avec les composants React et les échanges avec les utilisateurs, tout en demandant une revue sur les sujets de sécurité nouveaux.\n\n<1>PlanningVoisins<1/> présente mon travail sur les formulaires et les conflits de réservation. Certaines contributions ont eu lieu en parallèle de mon emploi : il s’agit d’un projet bénévole, pas d’un second poste à temps plein.\n\nElliot Marchand\n\n<2>Proposition de contrat : salaire, intégration et déclarations volontaires<2/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: 444ef78895a243529020797db6628032, type: 3}
+  - {fileID: 9197481963319205126, guid: 6c4cad81c5df44e98a2025d8ebc835c3, type: 3}
+  - {fileID: 9197481963319205126, guid: 14dbd4e8e58f440da4285c4546afe399, type: 3}

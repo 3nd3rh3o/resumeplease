@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: YanisBorel
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: e516c6f8800f4e6693e33fc05192e74e, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: f2c94880218841dcbb8a9f3231444eeb, type: 2}
+  mesh: {fileID: 3180741383420728226, guid: dc0efffae215c8842b8b1cfd4a4735c0, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 4d3953f123714b7688bfff82fe2b8c68, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 1ae1325efd1e441ea026b33e5e8d855b, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: 9fb5e56b344041868cac19748606ecca, type: 2}
+      level: 52
+    performance: 78
+    gender: 2
+    disability: 1
+    monthlySalary: 2700
+    onboardingHours: 8
+    securityRisk: 15

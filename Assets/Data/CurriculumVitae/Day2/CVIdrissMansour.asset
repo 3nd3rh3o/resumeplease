@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVIdrissMansour
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "MANSOUR"
+  m_surname: "Idriss"
+  m_email: "idrissmansour@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2021 — <0>Parcours informatique — formation vérifiée<0/>."
+  m_experience: "2021–2024 — <1>Mission professionnelle dans une équipe produit<1/>."
+  m_skills: "<2>FileDeTests : réalisations et limites<2/>. Je suis autonome sur les tests de formulaires et demande une revue pour les campagnes de charge."
+  m_hobbies: "Activités associatives, lecture."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "<3>Proposition de contrat : salaire, intégration, pratiques de sécurité et déclarations volontaires<3/>."
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: 1c0915498e774293b76315272f99590f, type: 3}
+  - {fileID: 9197481963319205126, guid: ca238c4098cd4ab68e5aa8635ce3ec01, type: 3}
+  - {fileID: 9197481963319205126, guid: f8dfe74177914efcb8f5ddff4f074d67, type: 3}
+  - {fileID: 9197481963319205126, guid: cd5b3429fc6042d796c65a797be03e92, type: 3}

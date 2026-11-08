@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209e9f8ee127de645bc8458a7727596a, type: 3}
+  m_Name: Day2
+  m_EditorClassIdentifier: Assembly-CSharp::DayDefinition
+  title: "Jour 2 - La qualité a un coût"
+  briefing: "Les premiers services doivent être testés avant la livraison. Recrutez une personne en qualité logicielle sans effacer les engagements des deux premiers jours."
+  newConstraints: "Le budget mensuel de l’équipe est maintenant plafonné à 14 000 €. La direction demande au moins 40 % de femmes dans l’effectif, sur la base des déclarations volontaires. Les situations non déclarées restent inconnues. Ces objectifs sont internes à cette entreprise fictive."
+  nextScenePath: "Assets/Scenes/Day3.unity"
+  candidates:
+  - {fileID: 11400000, guid: df427558aa5940cc80c8d08312b1096e, type: 2}
+  - {fileID: 11400000, guid: 212dffe3e85743cf87a314e1598dd1af, type: 2}
+  - {fileID: 11400000, guid: ea0bb2f39d4c4cdaa94a407dc516a4b8, type: 2}
+  - {fileID: 11400000, guid: 1fdd962b65034bd8abb10c2b4f226c58, type: 2}
+  interviewCapacity: 3
+  recruitment:
+  - role: {fileID: 11400000, guid: 2cd75bdffe0c4c6c822e47d854208ca5, type: 2}
+    hiresRequired: 1
+    requiredSkills:
+    - skill: {fileID: 11400000, guid: 89720d5046d249c692e6a1427f313218, type: 2}
+      level: 60
+  composition:
+  - metric: 0
+    minimumPercent: 40
+  requirePerformance: 1
+  minimumAveragePerformance: 70
+  requireSalaryBudget: 1
+  maximumMonthlyPayroll: 14000
+  requireNewHireBudget: 0
+  maximumNewHireMonthlyPayroll: 0
+  requireOnboardingCapacity: 0
+  maximumOnboardingHours: 0
+  requireSecurity: 0
+  maximumSecurityRisk: 0
+  failureRules:
+  - metric: 2
+    comparison: 1
+    threshold: 18000
+    ending: 2
+    title: "La trésorerie ne suit plus"
+    message: "La masse salariale dépasse le plafond critique annoncé. La trésorerie ne permet plus de couvrir les contrats engagés et l’activité s’arrête. Demander des recrutements sans financer les postes reporte un problème structurel sur les RH."
+  - metric: 1
+    comparison: 0
+    threshold: 55
+    ending: 1
+    title: "Une équipe privée de moyens"
+    message: "La performance de l’équipe est passée sous le seuil critique fixé par la direction. Les besoins de formation et les recrutements inadaptés se sont accumulés. La direction choisit de remplacer la personne chargée des RH."
+  - metric: 0
+    comparison: 2
+    threshold: 2
+    ending: 1
+    title: "Le fusible RH"
+    message: "Deux journées consécutives se terminent avec des objectifs manqués. La direction met fin à votre mission sans revoir les moyens accordés. Ce bilan décrit les choix et leurs contraintes ; il ne mesure pas votre valeur ni celle des personnes candidates."
+  isFinalDay: 0
+  finalMessage: ""

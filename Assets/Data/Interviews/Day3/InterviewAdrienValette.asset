@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewAdrienValette
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Pourquoi votre ancien employeur a-t-il bloqué vos exports ?"
+      response: "J’avais copié une base clients sur mon portable personnel. Je pensais gagner du temps. Le contrôle interne l’a interdit, mais je trouve cette règle trop rigide."
+    second:
+      question: "AuditExpress utilise-t-il des données fictives ?"
+      response: "Pas entièrement. Les noms ont changé, mais les adresses et certains historiques viennent d’une extraction réelle. Le dépôt de démonstration reste accessible à mon équipe personnelle."
+  - first:
+      question: "Comment révoquer un identifiant compromis ?"
+      response: "Il faut le désactiver et générer un nouveau secret. Je connais la procédure. Sur mes projets personnels, je garde parfois l’ancien identifiant pour éviter de tout reconfigurer."
+    second:
+      question: "Accepteriez-vous de supprimer les copies avant votre arrivée ?"
+      response: "Je préfère les conserver comme exemples. Je pourrais promettre de ne pas les diffuser, mais je ne veux pas m’engager à effacer tous mes fichiers."
+  - first:
+      question: "Quelles conditions vous permettraient de prendre ce poste ?"
+      response: "Je demande 6000 € brut par mois. Pour mon intégration, il faut prévoir 3 heures d’accompagnement par semaine. Je connais les audits, mais je maintiens une copie personnelle des données de production pour travailler plus vite."
+    second:
+      question: "Comment gérez-vous les données et les accès de production ?"
+      response: "Je conserve des exports de production et certains accès personnels. Votre note interne de 78/100 reflète ces pratiques constatées, pas un manque de connaissances théoriques."

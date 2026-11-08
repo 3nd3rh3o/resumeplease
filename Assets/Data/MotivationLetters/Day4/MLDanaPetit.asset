@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1a0c3cfeb0c1943bab0bb7a4a188c5, type: 3}
+  m_Name: MLDanaPetit
+  m_EditorClassIdentifier: Assembly-CSharp::MotivationLetters
+  m_content: "Madame, Monsieur,\n\nJe peux prendre les évolutions Java courantes. Deux heures de revue hebdomadaire suffisent pour apprendre vos conventions.\n\nMa <0>référence professionnelle<0/> et mon <1>projet TransactionsLocales<1/> permettent de vérifier mes missions. Je préfère rendre mes limites explicites.\n\nMa <2>proposition de contrat<2/> précise le salaire, le temps d’intégration et les déclarations que j’ai choisi de vous communiquer.\n\nDana Petit"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: 42ac5ad527d84066a3e9192ddb633e19, type: 3}
+  - {fileID: 9197481963319205126, guid: 1fd53b42a49d4dd0a405781f8a031054, type: 3}
+  - {fileID: 9197481963319205126, guid: c56b618cc60c4ddda4fe48924bfcd3d1, type: 3}

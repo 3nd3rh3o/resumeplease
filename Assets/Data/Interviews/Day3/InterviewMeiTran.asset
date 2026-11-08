@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewMeiTran
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Que prouve votre rapport AccèsClairs ?"
+      response: "Il décrit les accès réellement testés, les comptes inutilisés et les corrections vérifiées. Il indique aussi les services hors périmètre. Un audit limité ne devient pas une garantie totale."
+    second:
+      question: "Pourquoi avoir interrompu une livraison dans votre poste précédent ?"
+      response: "Un compte de service permettait de lire toutes les données clients. Nous avons réduit ses droits et vérifié la rotation du secret avant de reprendre."
+  - first:
+      question: "Que faites-vous lorsqu’un secret a été publié dans un dépôt ?"
+      response: "Je le révoque et le remplace, puis je vérifie son utilisation et les journaux. Effacer le fichier ou réécrire l’historique ne rend pas le secret à nouveau sûr."
+    second:
+      question: "Comment limiter les accès d’un nouveau prestataire ?"
+      response: "Un compte nominatif, les droits nécessaires au seul périmètre, une date d’expiration et une trace des actions sensibles. Je prévois la révocation dès la création."
+  - first:
+      question: "Quelles conditions vous permettraient de prendre ce poste ?"
+      response: "Je demande 4100 € brut par mois. Pour mon intégration, il faut prévoir 2 heures d’accompagnement par semaine. Je peux reprendre l’audit des accès avec deux heures hebdomadaires de présentation de votre infrastructure."
+    second:
+      question: "Comment gérez-vous les données et les accès de production ?"
+      response: "Mes démonstrations utilisent des données synthétiques. J’interdis les exports personnels de production. Ma situation de handicap est déclarée volontairement ; mon besoin d’aménagement concerne le poste de travail, pas ma capacité d’audit."

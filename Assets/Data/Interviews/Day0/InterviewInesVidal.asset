@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewInesVidal
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Qu’est-ce qui se transfère de votre expérience Python vers Java ?"
+      response: "La conception des endpoints, les transactions SQL, les tests et la lecture des incidents. En revanche, je dois encore apprendre les conventions de Spring et les outils de construction Java. Je ne confonds pas ces deux niveaux."
+    second:
+      question: "Que manque-t-il encore à votre projet SuiviStock ?"
+      response: "La persistance et l’API HTTP. Pour le moment, tout tourne en mémoire depuis la console. J’ai préféré tester le modèle métier avant d’ajouter le framework ; ce n’est pas encore un service exploitable en production."
+  - first:
+      question: "Pourriez-vous reprendre seule un service Spring dès demain ?"
+      response: "Je pourrais lire une partie du code et corriger une petite logique métier avec une relecture. Pour modifier la configuration de sécurité ou diagnostiquer le démarrage, il me faudrait de l’aide. Je préfère vous donner cette limite clairement."
+    second:
+      question: "Comment vérifier qu’un import ne perd aucune donnée ?"
+      response: "Je compare le nombre de lignes attendues, les rejets et les écritures validées. Je garde un journal des erreurs et je teste une reprise après interruption. C’est un problème que j’ai déjà traité sur mes services Python."
+  - first:
+      question: "De quel accompagnement auriez-vous besoin le premier mois ?"
+      response: "Une personne disponible pour deux revues de code par semaine et un premier sujet limité. Si vous attendez une maintenance Java sans accompagnement dès cette semaine, mon profil arrive un peu tôt."
+    second:
+      question: "Comment réagiriez-vous à un délai que vous ne pouvez pas tenir ?"
+      response: "Je le signale dès que le risque apparaît, avec ce qui est déjà vérifié et ce qui bloque. Je propose de réduire le périmètre. Promettre une expertise Java que je n’ai pas encore ferait perdre plus de temps à tout le monde."

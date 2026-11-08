@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVThomasMoreau
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "MOREAU"
+  m_surname: "Thomas"
+  m_email: "thomasmoreau@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2023 — <0>Licence professionnelle applications d’entreprise, IUT de Port-Roche<0/>."
+  m_experience: "2022–2023 — <1>Alternant Java chez CoopAgenda<1/>. 2023–2024 : maintenance applicative dans la même équipe."
+  m_skills: "Java, SQL, Spring Boot, tests unitaires. <2>Projet associatif PlanningClub<2/>."
+  m_hobbies: "Bénévolat associatif, jeux de société."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "Documents de formation, référence employeur et projet consultables ci-dessus.\n\n<3>Proposition de contrat : salaire, intégration et déclarations volontaires<3/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: 684237909dab441bbf7e7f5e179cecf1, type: 3}
+  - {fileID: 9197481963319205126, guid: dc7d506885944456a1697e2cf4e58724, type: 3}
+  - {fileID: 9197481963319205126, guid: a2f64e7fcd2e4a46b78f88991e2ae3a3, type: 3}
+  - {fileID: 9197481963319205126, guid: 1b59c0d704cb4f8691071b2d65ce8e52, type: 3}

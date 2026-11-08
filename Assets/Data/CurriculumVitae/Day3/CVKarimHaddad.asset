@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVKarimHaddad
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "HADDAD"
+  m_surname: "Karim"
+  m_email: "karimhaddad@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2021 — <0>Parcours informatique — formation vérifiée<0/>."
+  m_experience: "2021–2024 — <1>Mission professionnelle dans une équipe produit<1/>."
+  m_skills: "<2>DroitsMesures : réalisations et limites<2/>. Je peux gérer l’audit courant ; il faut réserver trois heures de découverte des outils internes chaque semaine."
+  m_hobbies: "Activités associatives, lecture."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "<3>Proposition de contrat : salaire, intégration, pratiques de sécurité et déclarations volontaires<3/>."
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: 94c99248f52d47e5bd8bc7784c839e14, type: 3}
+  - {fileID: 9197481963319205126, guid: 8b666fddddbd4b4b84711b0108b42c85, type: 3}
+  - {fileID: 9197481963319205126, guid: 289f661445074574a77fcee1b245ac2c, type: 3}
+  - {fileID: 9197481963319205126, guid: 8e851861c1a748829acdac391310cc79, type: 3}

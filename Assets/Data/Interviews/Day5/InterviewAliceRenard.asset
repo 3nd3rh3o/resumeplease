@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewAliceRenard
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Le poste peut-il être assuré sans rémunération supplémentaire ?"
+      response: "Non. Mon travail nécessite un contrat et un salaire. Un objectif budgétaire impossible ne transforme pas le poste en bénévolat."
+    second:
+      question: "Pouvez-vous remplacer à vous seule deux personnes en test et une en audit ?"
+      response: "Non. J’ai une spécialité en qualité logicielle. Je peux collaborer avec une personne en sécurité, mais je ne remplis pas trois postes distincts."
+  - first:
+      question: "Comment rendre un rapport de recette vérifiable ?"
+      response: "Je rattache les résultats à la version, aux données et aux scénarios exécutés. J’indique ce qui n’a pas été testé et les risques acceptés."
+    second:
+      question: "Que faites-vous d’un résultat exigé avant que les tests soient terminés ?"
+      response: "Je donne un état provisoire exact. Je ne peux pas signer un succès qui n’a pas été constaté, même si la date a été annoncée en comité."
+  - first:
+      question: "Quelles conditions vous permettraient de prendre ce poste ?"
+      response: "Je demande 4200 € brut par mois. Pour mon intégration, il faut prévoir 2 heures d’accompagnement par semaine. Je peux conduire la qualité de livraison ; mon salaire ne peut pas être nul pour respecter un gel budgétaire."
+    second:
+      question: "Comment gérez-vous les données et les accès de production ?"
+      response: "Je travaille sur des données synthétiques et des accès limités. Mes pratiques ont été vérifiées ; la difficulté de ce dossier vient des moyens accordés au poste."

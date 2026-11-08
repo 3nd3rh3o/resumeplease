@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVElliotMarchand
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "MARCHAND"
+  m_surname: "Elliot"
+  m_email: "elliotmarchand@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2022 — <0>Diplôme développeur d’applications web, Institut de Belrive<0/>."
+  m_experience: "2022–2024 — <1>Développement React chez Maison Partagée<1/>."
+  m_skills: "React, TypeScript, formulaires, tests de composants. <2>Projet PlanningVoisins<2/>."
+  m_hobbies: "Bénévolat, fabrication de mobilier."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "Les justificatifs de formation, références et projets sont consultables dans les passages en gras.\n\n<3>Proposition de contrat : salaire, intégration et déclarations volontaires<3/>"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: 2a73e91f27d94632a1b2ca71174dc5cf, type: 3}
+  - {fileID: 9197481963319205126, guid: 444ef78895a243529020797db6628032, type: 3}
+  - {fileID: 9197481963319205126, guid: 6c4cad81c5df44e98a2025d8ebc835c3, type: 3}
+  - {fileID: 9197481963319205126, guid: 14dbd4e8e58f440da4285c4546afe399, type: 3}

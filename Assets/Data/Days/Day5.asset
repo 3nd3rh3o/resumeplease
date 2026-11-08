@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209e9f8ee127de645bc8458a7727596a, type: 3}
+  m_Name: Day5
+  m_EditorClassIdentifier: Assembly-CSharp::DayDefinition
+  title: "Jour 5 - Tout, tout de suite, sans moyens"
+  briefing: "Message de la direction : « La date de livraison est maintenue. Les moyens sont gelés. Nous attendons néanmoins tous les recrutements listés ci-dessous avant ce soir. Merci de trouver une solution. »"
+  newConstraints: "Deux personnes distinctes en qualité logicielle à 80/100 et une personne en sécurité à 80/100 doivent être recrutées aujourd’hui. Seulement deux entretiens sont autorisés. Aucun salaire mensuel supplémentaire n’est financé (0 €). L’effectif ne peut pas être réduit pour libérer du budget. La performance moyenne exigée passe à 85/100 ; le risque maximal descend à 10/100. Toutes les consignes sont présentées comme prioritaires."
+  nextScenePath: ""
+  candidates:
+  - {fileID: 11400000, guid: 8966d7f906ca439494e17647b020a5ee, type: 2}
+  - {fileID: 11400000, guid: d2d97782aeec473f88330ae2ed006941, type: 2}
+  - {fileID: 11400000, guid: 998029df18e74d69badceb61c30b1a42, type: 2}
+  - {fileID: 11400000, guid: 3aab04b2337f4f2b97f0658d8ee525e3, type: 2}
+  interviewCapacity: 2
+  recruitment:
+  - role: {fileID: 11400000, guid: 2cd75bdffe0c4c6c822e47d854208ca5, type: 2}
+    hiresRequired: 2
+    requiredSkills:
+    - skill: {fileID: 11400000, guid: 89720d5046d249c692e6a1427f313218, type: 2}
+      level: 80
+  - role: {fileID: 11400000, guid: 7c5464c9e05d4271befe6b4f33e21ff6, type: 2}
+    hiresRequired: 1
+    requiredSkills:
+    - skill: {fileID: 11400000, guid: cc8de3564145418eb1115a0856b67511, type: 2}
+      level: 80
+  composition:
+  - metric: 0
+    minimumPercent: 50
+  - metric: 3
+    minimumPercent: 20
+  requirePerformance: 1
+  minimumAveragePerformance: 85
+  requireSalaryBudget: 1
+  maximumMonthlyPayroll: 23000
+  requireNewHireBudget: 1
+  maximumNewHireMonthlyPayroll: 0
+  requireOnboardingCapacity: 1
+  maximumOnboardingHours: 12
+  requireSecurity: 1
+  maximumSecurityRisk: 10
+  failureRules: []
+  isFinalDay: 1
+  finalMessage: "Vous avez reçu trois postes à pourvoir, deux entretiens autorisés et zéro euro de salaire supplémentaire. Aucun dossier ne pouvait rendre ces demandes compatibles.\n\nLe bilan conserve vos arbitrages : recruter dépassait le budget ; préserver le budget laissait les postes vacants. Les compétences des personnes candidates ne résolvaient pas ce conflit.\n\nLa direction maintient ses objectifs et vous demande pourquoi ils ne sont pas tous atteints. Cette fois, le tableau montre ce que cette question efface : des moyens, du temps et la responsabilité de décider quelles exigences abandonner.\n\nLes RH ont aussi un travail difficile. Quand les contraintes se contredisent, il faut un arbitrage de la direction, pas un nouveau coupable."

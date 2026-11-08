@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewThomasMoreau
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Comment conciliiez-vous l’IUT, CoopAgenda et PlanningClub ?"
+      response: "L’IUT et CoopAgenda faisaient partie de mon alternance. PlanningClub, c’était deux soirées bénévoles par mois, pas un troisième temps plein. J’aurais dû mieux le distinguer sur le CV."
+    second:
+      question: "Que faisiez-vous seul chez CoopAgenda ?"
+      response: "Les corrections courantes et de petits endpoints, après discussion du besoin. Je demandais une revue pour la sécurité ou une migration délicate. Mon contrat après l’alternance était surtout de la maintenance."
+  - first:
+      question: "Comment gérez-vous une réservation concurrente de créneau ?"
+      response: "Je vérifie la règle dans une transaction et je m’appuie sur une contrainte en base quand c’est possible. Je prévois une réponse compréhensible si le créneau vient d’être pris, et je teste les deux demandes simultanées."
+    second:
+      question: "Comment éviter de casser une API pendant une évolution ?"
+      response: "Je vérifie les contrats utilisés par les clients et j’ajoute un test sur le comportement existant. Si le changement est incompatible, je prépare une version ou une migration plutôt que de remplacer silencieusement le champ."
+  - first:
+      question: "Sur quels sujets auriez-vous encore besoin d’aide ?"
+      response: "Le dimensionnement de gros services et certaines configurations de sécurité. Pour une évolution métier classique en Java, je sais avancer seul et expliquer ce que j’ai testé. Je préfère demander une revue tôt sur le reste."
+    second:
+      question: "Que faites-vous quand une demande utilisateur reste floue ?"
+      response: "Je reformule un exemple concret, y compris les cas refusés, avant de coder. Sur PlanningClub, cela nous a évité de construire une règle de réservation que personne n’avait réellement demandée."

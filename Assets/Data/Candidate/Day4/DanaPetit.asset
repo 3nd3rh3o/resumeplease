@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31ee7e0761c9af40aff9e7530028078, type: 3}
+  m_Name: DanaPetit
+  m_EditorClassIdentifier: Assembly-CSharp::Candidate
+  m_CV: {fileID: 11400000, guid: 5321f7cab34d4bcca0f7208bab863c2f, type: 2}
+  m_motivationLetter: {fileID: 11400000, guid: fe5a58490ce14f259caaaf7d5ce01c64, type: 2}
+  mesh: {fileID: 7571359004941035550, guid: fea00cbe4b0956744be55ec4c629a963, type: 3}
+  interviewDialogue: {fileID: 11400000, guid: 6901858fbe4e412aafa1a90e4e349bf2, type: 2}
+  profile:
+    role: {fileID: 11400000, guid: 3db6165bdd0248a4a02021792bc9202e, type: 2}
+    skills:
+    - skill: {fileID: 11400000, guid: b188d528c00342bb8c83ca554894221b, type: 2}
+      level: 80
+    performance: 88
+    gender: 1
+    disability: 1
+    monthlySalary: 4100
+    onboardingHours: 2
+    securityRisk: 8

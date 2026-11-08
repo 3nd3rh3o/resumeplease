@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewOskarDuval
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Votre tableau affiche 98 % de couverture. Que couvre-t-il ?"
+      response: "Les lignes exécutées par les tests. Je n’ai pas encore relié tous ces chiffres aux risques métier ; le comité voulait surtout un indicateur simple."
+    second:
+      question: "Pourquoi la référence mentionne-t-elle des retards de communication ?"
+      response: "J’attendais la fin de mon investigation pour signaler les incidents. Les équipes ont parfois découvert un blocage trop tard. Je n’ai pas encore changé cette habitude."
+  - first:
+      question: "Un test traverse le code sans vérifier le résultat. Est-il utile ?"
+      response: "Il prouve que le code s’exécute, mais pas qu’il répond au besoin. Je devrais vérifier les sorties et les erreurs. La couverture seule ne suffit pas."
+    second:
+      question: "Comment amélioreriez-vous les échanges avec les développeurs ?"
+      response: "Il faudrait partager plus tôt mes scénarios et mes blocages. Jusqu’ici, je transmettais surtout le rapport final ; je sais que cela coûte du temps aux autres."
+  - first:
+      question: "Quelles conditions vous permettraient de prendre ce poste ?"
+      response: "Je demande 6200 € brut par mois. Pour mon intégration, il faut prévoir 2 heures d’accompagnement par semaine. Je demande un budget conséquent et je privilégie les indicateurs de couverture. Je communique peu avec les utilisateurs."
+    second:
+      question: "Comment gérez-vous les données et les accès de production ?"
+      response: "Je supprime les identifiants directs des extractions, mais la revue interne demande aussi de traiter les champs indirectement identifiants. Cette correction est encore ouverte."

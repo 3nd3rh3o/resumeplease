@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewEvaCosta
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "Pouvez-vous garantir zéro risque dès votre arrivée ?"
+      response: "Non. Je peux réduire les risques et documenter ce qui est vérifié. Une garantie absolue sur un système que je découvre serait une fausse promesse."
+    second:
+      question: "Pourquoi ne pas accepter le poste puis résoudre le budget plus tard ?"
+      response: "Parce qu’il faut un contrat et des moyens d’intégration. Reporter la contradiction sur une nouvelle recrue ne la résout pas."
+  - first:
+      question: "Comment hiérarchisez-vous les constats d’un audit ?"
+      response: "Je tiens compte des données exposées, de l’exploitation possible et des protections existantes. Je vérifie les corrections et je garde les limites du périmètre."
+    second:
+      question: "Que faire si deux consignes de sécurité se contredisent ?"
+      response: "Je rends le conflit explicite et je demande un arbitrage écrit. Je ne peux pas respecter simultanément des permissions obligatoires et leur interdiction sur le même périmètre."
+  - first:
+      question: "Quelles conditions vous permettraient de prendre ce poste ?"
+      response: "Je demande 4500 € brut par mois. Pour mon intégration, il faut prévoir 2 heures d’accompagnement par semaine. Je peux conduire l’audit, mais pas garantir une absence totale de risque avec des moyens figés."
+    second:
+      question: "Comment gérez-vous les données et les accès de production ?"
+      response: "Les accès d’audit sont autorisés, nominatifs et limités dans le temps. Les preuves sont minimisées et conservées dans l’espace prévu ; aucun export personnel de production."

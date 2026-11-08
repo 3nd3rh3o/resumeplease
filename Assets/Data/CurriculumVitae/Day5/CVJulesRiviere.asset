@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b543a3af0aac384cb14072502347dae, type: 3}
+  m_Name: CVJulesRiviere
+  m_EditorClassIdentifier: Assembly-CSharp::Cvs
+  m_name: "RIVIÈRE"
+  m_surname: "Jules"
+  m_email: "julesriviere@candidats.test"
+  m_phone: "Non communiqué"
+  m_address: "Belrive"
+  m_education: "2021 — <0>Parcours informatique — formation vérifiée<0/>."
+  m_experience: "2021–2024 — <1>Mission professionnelle dans une équipe produit<1/>."
+  m_skills: "<2>RevuePrudente : réalisations et limites<2/>. Je n’atteins pas votre niveau d’audit de 80/100 et j’ai besoin de cinq heures d’accompagnement par semaine."
+  m_hobbies: "Activités associatives, lecture."
+  m_languages: "Français ; anglais professionnel"
+  m_references: "<3>Proposition de contrat : salaire, intégration, pratiques de sécurité et déclarations volontaires<3/>."
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: 47872cca084e4b47ad3a29fb5c8a3e37, type: 3}
+  - {fileID: 9197481963319205126, guid: c4e5650027f14c208b25b4d2033c9d11, type: 3}
+  - {fileID: 9197481963319205126, guid: c88f0f1ba01a49c09e4eb288d2c4533a, type: 3}
+  - {fileID: 9197481963319205126, guid: 07aea5d3cd3041adb811c6b608f4ef15, type: 3}

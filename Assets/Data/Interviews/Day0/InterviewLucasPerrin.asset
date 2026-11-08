@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0917add7314b2cafb05585f73bba55, type: 3}
+  m_Name: InterviewLucasPerrin
+  m_EditorClassIdentifier: Assembly-CSharp::InterviewDialogue
+  steps:
+  - first:
+      question: "NexaFlux n’existait pas en 2021. Comment expliquer vos dates ?"
+      response: "J’ai regroupé mes projets personnels et mon passage chez eux pour simplifier. Le stage, c’était bien en 2023. « Lead », c’était surtout pour dire que j’étais autonome sur mes pages."
+    second:
+      question: "Quelle était votre mission exacte chez NexaFlux ?"
+      response: "Je m’occupais de la démonstration et je signalais les bugs. Pour l’API, on échangeait avec une prestataire. Je n’avais pas d’équipe sous ma responsabilité, mais je voyais comment ils travaillaient."
+  - first:
+      question: "Comment éviter qu’une API accepte deux fois la même facture ?"
+      response: "Je désactiverais le bouton après le premier clic. Si quelqu’un envoie quand même deux requêtes, je supprimerais le doublon plus tard. Je n’ai jamais eu à traiter ça côté serveur."
+    second:
+      question: "Que testez-vous quand la base de données ne répond plus ?"
+      response: "Je vérifie que la page s’ouvre encore et je redémarre le service. Sur mon projet de démonstration, les données étaient dans un fichier, donc je n’ai pas testé une vraie panne de base."
+  - first:
+      question: "Votre certificat ne mentionne pas Java. Où l’avez-vous appris ?"
+      response: "C’est surtout en regardant des vidéos. J’ai mis Architecte Java parce que je connais les grands principes. Je n’ai pas encore terminé d’application Java avec une base de données."
+    second:
+      question: "Que pourriez-vous livrer seul pendant votre première semaine ?"
+      response: "Une maquette avec les écrans et des réponses simulées. Pour raccorder tout ça à Spring et à une vraie base, il me faudrait quelqu’un pour démarrer. Sur le CV, j’ai présenté l’objectif comme s’il était déjà atteint."

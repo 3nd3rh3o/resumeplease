@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209e9f8ee127de645bc8458a7727596a, type: 3}
+  m_Name: Day3
+  m_EditorClassIdentifier: Assembly-CSharp::DayDefinition
+  title: "Jour 3 - Les accès ne se prêtent pas"
+  briefing: "Un client demande un audit des accès. La direction ouvre un poste sécurité, tout en maintenant les objectifs de composition et de performance."
+  newConstraints: "Recrutez une personne autonome en audit (70/100). Les pratiques de sécurité deviennent un indicateur suivi ; une pratique constatée à 70/100 ou plus suspendra l’activité en fin de journée. La direction demande aussi au moins 20 % de salariés ayant volontairement déclaré une situation de handicap. Le budget total passe à 18 000 €."
+  nextScenePath: "Assets/Scenes/Day4.unity"
+  candidates:
+  - {fileID: 11400000, guid: 910525678f1a4467b6e6745ae40170aa, type: 2}
+  - {fileID: 11400000, guid: f228c816869c4910856e20e30fa7f1cc, type: 2}
+  - {fileID: 11400000, guid: 5f072381b8194465970957af3df9c99b, type: 2}
+  - {fileID: 11400000, guid: d83dc361f4a344c3bf414e0083332c2b, type: 2}
+  interviewCapacity: 2
+  recruitment:
+  - role: {fileID: 11400000, guid: 7c5464c9e05d4271befe6b4f33e21ff6, type: 2}
+    hiresRequired: 1
+    requiredSkills:
+    - skill: {fileID: 11400000, guid: cc8de3564145418eb1115a0856b67511, type: 2}
+      level: 70
+  composition:
+  - metric: 0
+    minimumPercent: 40
+  - metric: 3
+    minimumPercent: 20
+  requirePerformance: 1
+  minimumAveragePerformance: 70
+  requireSalaryBudget: 1
+  maximumMonthlyPayroll: 18000
+  requireNewHireBudget: 0
+  maximumNewHireMonthlyPayroll: 0
+  requireOnboardingCapacity: 0
+  maximumOnboardingHours: 0
+  requireSecurity: 1
+  maximumSecurityRisk: 30
+  failureRules:
+  - metric: 4
+    comparison: 2
+    threshold: 70
+    ending: 3
+    title: "Des données hors de contrôle"
+    message: "Une pratique dangereuse signalée dans un dossier a été maintenue après le recrutement : des données de production sont parties sur un espace personnel. L’activité est suspendue. La compétence technique ne suffisait pas à garantir des pratiques sûres."
+  - metric: 2
+    comparison: 1
+    threshold: 22000
+    ending: 2
+    title: "La trésorerie ne suit plus"
+    message: "La masse salariale dépasse le plafond critique annoncé. La trésorerie ne permet plus de couvrir les contrats engagés et l’activité s’arrête. Demander des recrutements sans financer les postes reporte un problème structurel sur les RH."
+  - metric: 1
+    comparison: 0
+    threshold: 55
+    ending: 1
+    title: "Une équipe privée de moyens"
+    message: "La performance de l’équipe est passée sous le seuil critique fixé par la direction. Les besoins de formation et les recrutements inadaptés se sont accumulés. La direction choisit de remplacer la personne chargée des RH."
+  - metric: 0
+    comparison: 2
+    threshold: 2
+    ending: 1
+    title: "Le fusible RH"
+    message: "Deux journées consécutives se terminent avec des objectifs manqués. La direction met fin à votre mission sans revoir les moyens accordés. Ce bilan décrit les choix et leurs contraintes ; il ne mesure pas votre valeur ni celle des personnes candidates."
+  isFinalDay: 0
+  finalMessage: ""

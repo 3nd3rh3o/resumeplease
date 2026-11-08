@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1a0c3cfeb0c1943bab0bb7a4a188c5, type: 3}
+  m_Name: MLLilaTessier
+  m_EditorClassIdentifier: Assembly-CSharp::MotivationLetters
+  m_content: "Madame, Monsieur,\n\nJe peux organiser la recette et automatiser les parcours critiques sans attendre une équipe de test complète.\n\nMa <0>référence professionnelle<0/> et mon <1>projet RecettePartagee<1/> permettent de vérifier mes missions. Je préfère rendre mes limites explicites.\n\nMa <2>proposition de contrat<2/> précise le salaire, le temps d’intégration et les déclarations que j’ai choisi de vous communiquer.\n\nLila Tessier"
+  uIDocuments:
+  - {fileID: 9197481963319205126, guid: 55abc9318541470ab11fc90d83441203, type: 3}
+  - {fileID: 9197481963319205126, guid: ad379b23556848eb8eafddc905ebb63a, type: 3}
+  - {fileID: 9197481963319205126, guid: 5c08234610034a1e9101eaccba9389f4, type: 3}
